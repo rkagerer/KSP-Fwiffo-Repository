@@ -9,7 +9,7 @@
     },
     "install": [
         {
-            "file": "GameData/KIS",
+            "find": "KIS",
             "install_to": "GameData"
         }
     ],

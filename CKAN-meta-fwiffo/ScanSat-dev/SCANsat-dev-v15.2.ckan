@@ -42,7 +42,7 @@
     ],
     "install" : [
         {
-            "file"       : "GameData/SCANsat",
+            "find"       : "SCANsat",
             "install_to" : "GameData"
         }
     ],

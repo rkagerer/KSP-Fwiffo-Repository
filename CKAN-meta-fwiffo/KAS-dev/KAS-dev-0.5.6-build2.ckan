@@ -9,7 +9,7 @@
     },
     "install": [
         {
-            "file": "GameData/KAS",
+            "find": "KAS",
             "install_to": "GameData"
         }
     ],
