@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier": "KerbalAlarmClock-dev",
     "name": "Kerbal Alarm Clock (dev)",
-    "abstract": "Development version (pre-release) of Kerbal Alarm Clock; may not be stable.  Uses jslater89's fork 3.6.0-v1.1-provisional (Apr 2016).\n\nAn in-game alarm clock to help you stop missing important moments",
+    "abstract": "Development version (pre-release) of Kerbal Alarm Clock; may not be stable.  Uses jslater89's (Fishbreath) fork 3.6.0-v1.1-provisional (Apr 2016).\n\nAn in-game alarm clock to help you stop missing important moments",
     "author": "TriggerAu",
     "license": "MIT",
     "release_status": "development",
