@@ -31,7 +31,7 @@
     ],
     "install": [
         {
-            "file": "StageRecovery",
+            "find": "StageRecovery",
             "install_to": "GameData"
         }
     ],
