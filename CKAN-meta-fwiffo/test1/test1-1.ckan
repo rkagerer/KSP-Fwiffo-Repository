@@ -1,8 +1,8 @@
 {
     "spec_version": 1,
-    "identifier": "RasterPropMonitor-simple-dev",
-    "name": "RasterPropMonitor simple (dev)",
-    "abstract": "test",
+    "identifier": "test1",
+    "name": "test1",
+    "abstract": "test1",
     "author": [
         "MOARdV",
         "Mihara"
@@ -13,24 +13,12 @@
         "repository": "https://github.com/Mihara/RasterPropMonitor"
     },
     "release_status": "development",
-    "version": "0.25.0-pre1",
+    "version": "1",
     "ksp_version": "1.1.0",
     "depends": [
         {
             "name": "ModuleManager"
         }
-    ],
-    "suggests": [
-        {
-            "name": "VesselView"
-        },
-        {
-            "name": "SCANsat-dev"
-        }
-    ],
-    "conflicts" : [
-        { "name" : "RasterPropMonitor" },
-        { "name" : "RasterPropMonitor-Core" }
     ],
     "install": [
         {
