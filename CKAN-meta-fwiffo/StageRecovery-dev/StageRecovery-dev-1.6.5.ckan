@@ -1,0 +1,39 @@
+{
+    "spec_version": 1,
+    "identifier": "StageRecovery-dev",
+    "name": "StageRecovery (dev)",
+    "abstract": "Development version (pre-release) of StageRecovery; may not be stable.  Uses rem0230's builds at http://forum.kerbalspaceprogram.com/index.php?/topic/136230-stagerecovery-compiled-for-ksp-11/\n\nRecover Funds, Kerbals, and Science from Dropped Stages",
+    "author": [ "magico13", "rem0230" ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/78226-105-stagerecovery-recover-funds-from-dropped-stages-v162-010216/&page=1",
+        "spacedock": "https://spacedock.info/mod/219/StageRecovery",
+        "repository": "https://github.com/magico13/StageRecovery"
+    },
+    "version": "1.6.5",
+    "ksp_version": "1.1.0",
+    "suggests": [
+        {
+            "name": "KerbalConstructionTime"
+        },
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DebRefund"
+        },
+        {
+            "name": "StageRecovery"
+        }
+    ],
+    "install": [
+        {
+            "find": "StageRecovery",
+            "install_to": "GameData/StageRecovery"
+        }
+    ],
+    "download": "https://github.com/rem02/StageRecovery/releases/download/v1.6.5/StageRecovery1.6.5.zip",
+    "x_generated_by": "Fwiffo"
+}
