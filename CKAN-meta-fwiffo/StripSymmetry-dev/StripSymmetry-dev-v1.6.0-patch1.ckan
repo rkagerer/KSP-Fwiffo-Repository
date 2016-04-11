@@ -14,9 +14,7 @@
     "ksp_version_min": "1.1.0",
     "download": "https://cdn.rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/StripSymmetry-dev-1.6.0-patch1.zip",
     "conflicts": [
-        { "name": "StripSymmetry" },
-        { "name": "EditorExtensionsRedux" },
-        { "name": "EditorExtensionsRedux-dev" }
+        { "name": "StripSymmetry" }
     ],
     "install": [
         {
