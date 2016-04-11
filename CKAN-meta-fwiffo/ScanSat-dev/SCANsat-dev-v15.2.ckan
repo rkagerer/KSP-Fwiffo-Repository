@@ -42,8 +42,8 @@
     ],
     "install" : [
         {
-            "find"       : "SCANsat",
-            "install_to" : "GameData/SCANsat"
+            "file"       : "GameData/SCANsat",
+            "install_to" : "GameData"
         }
     ],
     "download": "https://github.com/S-C-A-N/SCANsat/releases/download/v15.2/SCANsat-v15.2.zip",

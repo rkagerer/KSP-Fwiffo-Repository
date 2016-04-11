@@ -19,8 +19,8 @@
 
     "install": [
         {
-            "file": "KerbalScienceFoundation",
-            "install_to": "GameData/KerbalScienceFoundation"
+            "file": "GameData/KerbalScienceFoundation",
+            "install_to": "GameData"
         }
     ],
     "download": "https://github.com/kujuman/NavInstruments/files/201068/NavUtilities.0.6.0.zip",

@@ -31,8 +31,8 @@
     ],
     "install": [
         {
-            "find": "StageRecovery",
-            "install_to": "GameData/StageRecovery"
+            "file": "GameData/StageRecovery",
+            "install_to": "GameData"
         }
     ],
     "download": "https://github.com/rem02/StageRecovery/releases/download/v1.6.5/StageRecovery1.6.5.zip",

@@ -18,8 +18,8 @@
     },
     "install" : [
         {
-            "find"       : "PreciseNode",
-            "install_to" : "GameData/PreciseNode"
+            "file"       : "GameData/PreciseNode",
+            "install_to" : "GameData"
         }
     ],
     "x_generated_by": "Fwiffo",
