@@ -9,8 +9,8 @@
     },
     "install": [
         {
-            "file": "KAS",
-            "install_to": "GameData"
+            "find": "KAS",
+            "install_to": "GameData/KAS"
         }
     ],
     "conflicts" : [
