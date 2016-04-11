@@ -6,8 +6,8 @@
     "author"         : "blizzy78",
     "download"       : "https://github.com/rkagerer/KSP-Fwiffo-Repository/raw/master/Mods/PreciseNode-dev-1.2.1-patch1.zip",
     "license"        : "BSD-2-clause",
+    "release_status": "development",
     "version"        : "1.2.1-patch1",
-    "release_status" : "stable",
     "ksp_version"    : "1.1.0",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/47863",

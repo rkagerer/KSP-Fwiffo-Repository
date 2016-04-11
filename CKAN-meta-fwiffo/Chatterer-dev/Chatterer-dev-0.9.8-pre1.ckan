@@ -5,6 +5,7 @@
     "abstract": "Development version (pre-release) of Chatterer; may not be stable.\n\nA plugin for Kerbal Space Program which adds some SSTV, beeps, and nonsensical radio chatter between your command pods and Mission Control.",
     "author": "Athlonic",
     "license": "GPL-3.0",
+    "release_status": "development",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/83290-105-chatterer-v097-keep-talking-11-nov-2015/&page=1",
         "spacedock": "https://spacedock.info/mod/208/Chatterer",

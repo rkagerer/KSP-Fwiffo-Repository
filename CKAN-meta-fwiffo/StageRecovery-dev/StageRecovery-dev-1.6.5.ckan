@@ -10,6 +10,7 @@
         "spacedock": "https://spacedock.info/mod/219/StageRecovery",
         "repository": "https://github.com/magico13/StageRecovery"
     },
+    "release_status": "development",
     "version": "1.6.5",
     "ksp_version": "1.1.0",
     "suggests": [
