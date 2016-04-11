@@ -17,7 +17,7 @@ echo ************************ FAILED! *************************
 echo Local copy is out of date.  Use GIT to pull changes first.
 echo e.g. git pull origin master [--rebase]
 echo **********************************************************
-echo.
 
 :END
+echo.
 pause
