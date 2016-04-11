@@ -14,7 +14,7 @@
         }
     ],
     "conflicts" : [
-        { "name" : "KAS" },
+        { "name" : "KAS" }
     ],
     "download"       : "https://github.com/KospY/KAS/releases/download/0.5.6-alpha.2/KAS_v0.5.6_build2.zip",
     "license"        : "restricted",
@@ -23,14 +23,14 @@
     "ksp_version"    : "1.1.0",
     "depends" : [
         {
-            "name": "ModuleManager"
+            "name"   : "ModuleManager"
         }
     ],
     "recommends" : [
         {
-            "name": "KIS-dev"
+            "name"   : "KIS-dev"
         }
     ],
-    "x_generated_by": "Fwiffo",
-    "x_master_meta": "https://github.com/KSP-CKAN/CKAN-meta/tree/master/KAS"
+    "x_generated_by" : "Fwiffo",
+    "x_master_meta"  : "https://github.com/KSP-CKAN/CKAN-meta/tree/master/KAS"
 }
