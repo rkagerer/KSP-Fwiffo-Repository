@@ -3,7 +3,7 @@
     "identifier": "StripSymmetry-dev",
     "name": "Strip Symmetry (dev)",
     "abstract": "Development version (pre-release) of StripSymmetry; may not be stable.  Uses Dizor's April 3 recompilation for 1.1 (see http://forum.kerbalspaceprogram.com/index.php?/topic/72894-10-stripsymmetry-remove-symmetry-v16-2015-04-28-2020-utc/&do=findComment&comment=2492653).  Note as of April 10, 2016, this functionality has been introduced into EditorExtensionsRedux, which you might want to try instead.\n\nRemove Symmetry!",
-    "author": [ "Biotronic", "Dizor" ]
+    "author": [ "Biotronic", "Dizor" ],
     "license": "WTFPL",
     "release_status": "development",
     "resources": {
