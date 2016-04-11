@@ -35,11 +35,6 @@
     "install": [
         {
             "find: "JSI",
-            "filter": [
-                "RasterPropMonitor",
-                "Agencies",
-                "RPMPodPatches"
-            ],
             "install_to": "GameData/JSI"
         }
     ],
