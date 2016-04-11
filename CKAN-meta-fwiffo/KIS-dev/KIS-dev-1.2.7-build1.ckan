@@ -9,8 +9,8 @@
     },
     "install": [
         {
-            "file": "KIS",
-            "install_to": "GameData"
+            "find": "KIS",
+            "install_to": "GameData/KIS"
         }
     ],
     "conflicts" : [
