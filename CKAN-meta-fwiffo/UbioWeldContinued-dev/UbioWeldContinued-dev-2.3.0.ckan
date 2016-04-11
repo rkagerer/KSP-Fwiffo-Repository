@@ -1,0 +1,25 @@
+{
+    "spec_version": 1,
+    "identifier": "UbioWeldContinued-dev",
+    "name": "UbioZur Welding Ltd. Continued (dev)",
+    "abstract": "Development version (pre-release) of UbioZur Welding Ltd. Continued; may not be stable.\n\nThis is a welding tool to allow you to merge KSP parts together in order to reduce your part count and increase performance. You will now be able to create big space station or vessel without killing your CPU. The mass, price, resource quantity are kept as if you had all the part separated. Please read forum thread for known limitations and issues.",
+    "author": "Alewx",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/96670-105-ubiozur-welding-ltd-continued",
+        "repository": "https://github.com/UbioWeldingLtd/UbioWeldContinued"
+    },
+    "version": "2.3.0",
+    "ksp_version": "1.1.0",
+    "install": [
+        {
+            "find": "UbioWeldingLtd",
+            "install_to": "GameData"
+        }
+    ],
+    "conflicts": [
+        { "name": "UbioWeldContinued" },
+    ],
+    "download": "https://github.com/UbioWeldingLtd/UbioWeldContinued/releases/download/2.3.0_Beta/UbioWeldContinued-2.3.0.zip",
+    "x_generated_by": "Fwiffo"
+}

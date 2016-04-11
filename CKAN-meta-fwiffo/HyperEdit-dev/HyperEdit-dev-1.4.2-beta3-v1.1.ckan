@@ -1,0 +1,27 @@
+{
+  "spec_version": 1,
+  "name": "HyperEdit-dev",
+  "abstract": "Development version (pre-release) of HyperEdit, based on 1.4.2 plus the beta 3 v1.1 experimental dll for KSP 1.1; may not be stable.\n\nAllows you to teleport any ship, and edit any orbit - even the planets!\n\nDiscuss: http://forum.kerbalspaceprogram.com/index.php?/topic/34785-105-hyperedit-v142-nov-11-2015-teleporter-orbit-planet-editor-more/&page=44",
+  "identifier": "HyperEdit-dev",
+  "release_status": "development",
+  "resources": {
+    "homepage": "http://www.kerbaltek.com/hyperedit",
+    "repository": "https://github.com/Ezriilc/HyperEdit"
+  },
+  "install": [
+    {
+      "find": "Kerbaltek",
+      "install_to": "GameData"
+    }
+  ],
+    "conflicts": [
+        { "name": "HyperEdit" },
+    ],  
+  "ksp_version": "1.1.0",
+  "license": "restricted",
+  "author": [ "khyperia", "Payo", "sirkut", "Ezriilc" ],
+  "version": "1.4.2-beta3-v1.1",
+  "download": "https://cdn.rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/HyperEdit-dev-1.4.2-beta3-v1.1.zip",
+  "x_generated_by": "Fwiffo",
+  "x_updates_at": "http://www.kerbaltek.com/hyperedit"
+}
