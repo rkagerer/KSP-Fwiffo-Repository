@@ -1,0 +1,36 @@
+﻿{
+    "spec_version"   : 1,
+    "name"           : "Kerbal Attachment System (dev)",
+    "identifier"     : "KAS-dev",
+    "abstract"       : "Development version (pre-release) of Kerbal Attachment System; may not be stable.\n\nKAS introduces new gameplay mechanics by adding winches, containers, dynamic struts/pipes and grabbable & attachable parts.\n\nDiscuss: http://forum.kerbalspaceprogram.com/index.php?/topic/136676-kiskas-for-11-alpha-testing/",
+    "resources"      : {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/92514",
+        "repository": "https://github.com/KospY/KAS"
+    },
+    "install": [
+        {
+            "file": "KAS",
+            "install_to": "GameData"
+        }
+    ],
+    "conflicts" : [
+        { "name" : "KAS" },
+    ],
+    "download"       : "https://github.com/KospY/KAS/releases/download/0.5.6-alpha.2/KAS_v0.5.6_build2.zip",
+    "license"        : "restricted",
+    "author"         : [ "KospY", "Winn75", "zzz", "Majiir", "a.g." ],
+    "version"        : "0.5.6-build2",
+    "ksp_version"    : "1.1.0",
+    "depends" : [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends" : [
+        {
+            "name": "KIS-dev"
+        }
+    ],
+    "x_generated_by": "Fwiffo",
+    "x_master_meta": "https://github.com/KSP-CKAN/CKAN-meta/tree/master/KAS"
+}

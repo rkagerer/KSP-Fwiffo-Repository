@@ -1,0 +1,36 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalAlarmClock-dev",
+    "name": "Kerbal Alarm Clock (dev)",
+    "abstract": "Development version (pre-release) of Kerbal Alarm Clock; may not be stable.  Uses jslater89's fork 3.6.0-v1.1-provisional (Apr 2016).\n\nAn in-game alarm clock to help you stop missing important moments",
+    "author": "TriggerAu",
+    "license": "MIT",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/24786",
+        "repository": "https://github.com/TriggerAu/KerbalAlarmClock",
+        "license": "https://github.com/TriggerAu/KerbalAlarmClock/blob/master/LICENSE",
+        "manual": "http://triggerau.github.io/KerbalAlarmClock/",
+        "x_curse": "http://kerbal.curseforge.com/ksp-mods/220289-kerbal-alarm-clock"
+    },
+    "version": "v3.6.0.0",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.1.99",
+    "depends": [
+        {
+            "name": "TriggerAu-Flags"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalAlarmClock",
+            "install_to": "GameData/TriggerTech"
+        }
+    ],
+    "conflicts" : [
+        { "name" : "KerbalAlarmClock" },
+    ],
+    "download": "https://github.com/jslater89/KerbalAlarmClock/releases/download/v3.6.0.0/KerbalAlarmClock-3.6.0-v1.1-provisional.zip",
+    "x_generated_by": "Fwiffo",
+    "x_master_meta": "https://github.com/KSP-CKAN/CKAN-meta/tree/master/KerbalAlarmClock"
+}
