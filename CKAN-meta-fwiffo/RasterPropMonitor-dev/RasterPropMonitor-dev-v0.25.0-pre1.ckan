@@ -1,43 +1,39 @@
 {
-    "spec_version": 1,
-    "identifier": "RasterPropMonitor-dev",
-    "name": "RasterPropMonitor (dev)",
-    "abstract": "Development version (pre-release) of RasterPropMonitor; may not be stable.  Based on the v0.25.0 pre-release builds MOARdV has been posting on Dropbox.  WARNING: Contains the full RPM install, and is not split into two CKAN modules the way it is in the master CKAN repository.  Beware of cfg customizations getting overwritten.\n\nRasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.\n\nDiscuss: http://forum.kerbalspaceprogram.com/index.php?/topic/105821-105-rasterpropmonitor-still-putting-the-a-in-iva-v0242-24-december-2015/&do=findComment&comment=2486216",
-    "author": [
-        "MOARdV",
-        "Mihara"
-    ],
-    "license": "GPL-3.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/117471",
-        "repository": "https://github.com/Mihara/RasterPropMonitor"
+    "spec_version"    : 1,
+    "identifier"      : "RasterPropMonitor-dev",
+    "name"            : "RasterPropMonitor (dev)",
+    "abstract"        : "Development version (pre-release) of RasterPropMonitor; may not be stable.  Based on the v0.25.0 pre-release builds MOARdV has been posting on Dropbox.  WARNING: Contains the full RPM install, and is not split into two CKAN modules the way it is in the master CKAN repository.  Beware of cfg customizations getting overwritten.\n\nRasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.\n\nDiscuss: http://forum.kerbalspaceprogram.com/index.php?/topic/105821-105-rasterpropmonitor-still-putting-the-a-in-iva-v0242-24-december-2015/&do=findComment&comment=2486216",
+    "author"          : [ "MOARdV", "Mihara" ],
+    "license"         : "GPL-3.0",
+    "resources"       :
+    {
+        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/117471",
+        "repository"  : "https://github.com/Mihara/RasterPropMonitor"
     },
-    "release_status": "development",
-    "version": "v0.25.0-pre1",
-    "ksp_version": "1.1.0",
-    "depends": [
+    "release_status"  : "development",
+    "version"         : "v0.25.0-pre1",
+    "ksp_version"     : "1.1.0",
+    "depends"         :
+    [
+        { "name"      : "ModuleManager" }
+    ],
+    "suggests"        :
+    [
+        { "name"      : "VesselView" } ,
+        { "name"      : "SCANsat-dev" }
+    ],
+    "conflicts"       :
+    [
+        { "name"      : "RasterPropMonitor" },
+        { "name"      : "RasterPropMonitor-Core" }
+    ],
+    "install"         :
+    [
         {
-            "name": "ModuleManager"
+           "find"     : "JSI",
+           "install_to" : "GameData/JSI"
         }
     ],
-    "suggests": [
-        {
-            "name": "VesselView"
-        },
-        {
-            "name": "SCANsat-dev"
-        }
-    ],
-    "conflicts" : [
-        { "name" : "RasterPropMonitor" },
-        { "name" : "RasterPropMonitor-Core" }
-    ],
-    "install": [
-        {
-            "find: "JSI",
-            "install_to": "GameData/JSI"
-        }
-    ],
-    "download": "https://www.dropbox.com/s/qhpjyxlwv59thq7/RasterPropMonitor-dev.0.25.0.zip",
-    "x_generated_by": "Fwiffo"
+    "download"        : "https://www.dropbox.com/s/qhpjyxlwv59thq7/RasterPropMonitor-dev.0.25.0.zip",
+    "x_generated_by"  : "Fwiffo"
 }
