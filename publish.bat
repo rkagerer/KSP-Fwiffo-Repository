@@ -7,6 +7,7 @@ REM if errorlevel 1 goto NOTCURRENT
 del CKAN-meta-fwiffo.zip
 REM -tzip for zip, -tgzip for gzip, -ttar for tar
 "C:\Program Files (x86)\7-Zip\7z.exe" a -tzip -r -x@CKAN-meta-fwiffo\exclude.txt CKAN-meta-fwiffo.zip CKAN-meta-fwiffo\*.*
+git add -A
 git commit -a
 git push origin master
 goto END
