@@ -37,7 +37,7 @@
             "name": "ContractConfigurator-ScanSatLite"
         },
         {
-            "name": "ScanSat"
+            "name": "SCANsat"
         }
     ],
     "install" : [
