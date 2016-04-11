@@ -2,7 +2,7 @@
     "spec_version"    : 1,
     "identifier"      : "RasterPropMonitor-dev",
     "name"            : "RasterPropMonitor (dev)",
-    "abstract"        : "Development version (pre-release) of RasterPropMonitor; may not be stable.  Based on the v0.25.0 pre-release builds MOARdV has been posting on Dropbox.  WARNING: Contains the full RPM install, and is not split into two CKAN modules the way it is in the master CKAN repository.  Beware of cfg customizations getting overwritten.\n\nRasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.\n\nDiscuss: http://forum.kerbalspaceprogram.com/index.php?/topic/105821-105-rasterpropmonitor-still-putting-the-a-in-iva-v0242-24-december-2015/&do=findComment&comment=2486216",
+    "abstract"        : "Development version (pre-release) of RasterPropMonitor; may not be stable.  Based on the v0.25.0 pre-release builds MOARdV has been posting on Dropbox.\n\nWARNING: Contains the full RPM install, and is not split into two CKAN modules the way it is in the master CKAN repository.  Beware of cfg customizations getting overwritten.\n\nRasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.\n\nDiscuss: http://forum.kerbalspaceprogram.com/index.php?/topic/105821-105-rasterpropmonitor-still-putting-the-a-in-iva-v0242-24-december-2015/&do=findComment&comment=2486216",
     "author"          : [ "MOARdV", "Mihara" ],
     "license"         : "GPL-3.0",
     "resources"       :
@@ -30,8 +30,8 @@
     "install"         :
     [
         {
-           "find"     : "JSI",
-           "install_to" : "GameData/JSI"
+           "file"     : "GameData/JSI",
+           "install_to" : "GameData"
         }
     ],
     "download"        : "https://www.dropbox.com/s/qhpjyxlwv59thq7/RasterPropMonitor-dev.0.25.0.zip?dl=1",
