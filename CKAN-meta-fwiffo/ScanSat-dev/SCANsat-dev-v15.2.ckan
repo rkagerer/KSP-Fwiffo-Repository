@@ -2,7 +2,7 @@
     "spec_version": 1,
     "identifier": "SCANsat-dev",
     "name": "SCANsat (dev)",
-    "abstract": "Development version (pre-release) of ScanSat; may not be stable.\n\nSCANsat: Real Scanning, Real Science, Warp Speed!",
+    "abstract": "Development version (pre-release) of SCANsat; may not be stable.\n\nSCANsat: Real Scanning, Real Science, Warp Speed!",
     "author": "DMagic",
     "license": "restricted",
     "resources": {
@@ -38,6 +38,12 @@
         },
         {
             "name": "ScanSat"
+        }
+    ],
+    "install" : [
+        {
+            "find"       : "SCANsat",
+            "install_to" : "GameData/SCANsat"
         }
     ],
     "download": "https://github.com/S-C-A-N/SCANsat/releases/download/v15.2/SCANsat-v15.2.zip",
