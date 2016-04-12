@@ -1,7 +1,7 @@
 {
   "spec_version"       : 1,
-  "identifier"         : "FwiffoSkybox",
-  "name"               : "Fwiffo's Skybox",
+  "identifier"         : "FwiffoRaredenSkybox",
+  "name"               : "Fwiffo's Rareden Skybox",
   "author"             : [ "Rareden", "NoSyMe", "Fwiffo" ],
   "abstract"           : "High quality galaxy skybox, based on Rareden's Real 8k textures.",
   "description"        : "Uses Rareden's Real 8k textures, compressed by NoSyMe with police grade image compression software (88.6% size reduction with only 1.2% quality loss).  See: http://forum.kerbalspaceprogram.com/index.php?/topic/78778-raredens-real-8k-skybox-for-texture-replacer/&do=findComment&comment=2218500",
@@ -14,7 +14,7 @@
     "homepage"         : "http://forum.kerbalspaceprogram.com/index.php?/topic/78778-raredens-real-8k-skybox-for-texture-replacer/"
   },
   "x_todo"             : "Change link below to cdn.rawgit.com",
-  "download"           : "https://rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/Fwiffo-Skybox-1.0.zip",
+  "download"           : "https://rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/FwiffoRaredenSkybox-1.0.zip",
   "depends"            :
   [
     { "name"           : "TextureReplacer" }
