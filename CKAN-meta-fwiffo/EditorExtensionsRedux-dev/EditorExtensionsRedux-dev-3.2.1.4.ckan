@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "EditorExtensionsRedux-dev",
     "name": "Editor Extensions Redux (dev)",
     "abstract": "Development version (pre-release) of Editor Extensions Redux; may not be stable.\n\nTweaks and features for the in-game vessel editor, e.g. alignment and symmetry aids. Now includes SelectRoot mod",

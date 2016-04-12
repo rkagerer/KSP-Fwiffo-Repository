@@ -1,5 +1,5 @@
 {
-    "spec_version"    : 1,
+    "spec_version"    : "v1.4",
     "identifier"      : "RasterPropMonitor-dev",
     "name"            : "RasterPropMonitor (dev)",
     "abstract"        : "Development version (pre-release) of RasterPropMonitor; may not be stable.  Based on the v0.25.0 pre-release builds MOARdV has been posting on Dropbox.\n\nWARNING: Contains the full RPM install, and is not split into two CKAN modules the way it is in the master CKAN repository.  Beware of cfg customizations getting overwritten.\n\nRasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.\n\nDiscuss: http://forum.kerbalspaceprogram.com/index.php?/topic/105821-105-rasterpropmonitor-still-putting-the-a-in-iva-v0242-24-december-2015/&do=findComment&comment=2486216",

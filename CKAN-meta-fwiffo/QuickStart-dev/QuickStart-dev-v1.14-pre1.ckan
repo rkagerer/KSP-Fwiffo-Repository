@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.01",
+    "spec_version": "v1.4",
     "identifier": "QuickStart-dev",
     "name": "QuickStart (dev)",
     "abstract": "Development version (pre-release) of Malah's QuickStart; may not be stable.\n\nQuickStart is a small plugin which adds the possibility to go to the last game saved after the loading of KSP.",

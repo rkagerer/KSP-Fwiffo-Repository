@@ -1,5 +1,5 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "name"           : "Precise Node (dev)",
     "identifier"     : "PreciseNode-dev",
     "abstract"       : "Development version (pre-release) of PreciseNode; may not be stable.  Uses PreciseNode 1.2.1 plus the KSP-1.1 patch from clumsypilot posted at http://forum.kerbalspaceprogram.com/index.php?/topic/44129-105-precise-node-121-precisely-edit-your-maneuver-nodes/&do=findComment&comment=2485324\n\nProvides a more precise widget for maneuver node editing",

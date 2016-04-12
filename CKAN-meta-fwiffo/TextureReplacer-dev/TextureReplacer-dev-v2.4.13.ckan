@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "comment": "Plugin is MIT, but some parts CC-BY-NC-SA, and we always specify most restrictive in metadata.",
     "identifier": "TextureReplacer-dev",
     "name": "TextureReplacer (dev)",

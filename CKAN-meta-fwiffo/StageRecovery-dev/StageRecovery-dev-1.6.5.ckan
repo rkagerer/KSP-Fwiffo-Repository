@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "StageRecovery-dev",
     "name": "StageRecovery (dev)",
     "abstract": "Development version (pre-release) of StageRecovery; may not be stable.  Uses rem0230's builds at http://forum.kerbalspaceprogram.com/index.php?/topic/136230-stagerecovery-compiled-for-ksp-11/\n\nRecover Funds, Kerbals, and Science from Dropped Stages",

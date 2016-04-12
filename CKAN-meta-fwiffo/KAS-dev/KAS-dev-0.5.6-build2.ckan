@@ -1,5 +1,5 @@
 ﻿{
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "name"           : "Kerbal Attachment System (dev)",
     "identifier"     : "KAS-dev",
     "abstract"       : "Development version (pre-release) of Kerbal Attachment System; may not be stable.\n\nKAS introduces new gameplay mechanics by adding winches, containers, dynamic struts/pipes and grabbable & attachable parts.\n\nDiscuss: http://forum.kerbalspaceprogram.com/index.php?/topic/136676-kiskas-for-11-alpha-testing/",

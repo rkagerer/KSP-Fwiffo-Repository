@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "KerbalEngineerRedux-dev",
     "name": "Kerbal Engineer Redux (dev)",
     "abstract": "Development version (pre-release) of Kerbal Engineer Redux; may not be stable.\n\nReveals important statistics about your ship and its orbit during building and flight",

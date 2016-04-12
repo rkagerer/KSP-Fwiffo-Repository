@@ -1,7 +1,7 @@
 {
-  "spec_version"       : 1,
+  "spec_version"       : "v1.4",
   "identifier"         : "UbioWeldContinued-FwiffoSettings",
-  "name"               : "Fwiffo's settings for UbioZur Welding Ltd. Continued",
+  "name"               : "Fwiffo's settings for UbioZur Welding Ltd. Continued (DEFUNCT)",
   "author"             : "Fwiffo",
   "abstract"           : "Fwiffo's settings for UbioWeldContinued.  Overrides the following from the default config:\n\n- 6 digits of precision, instead of 3\n\n- Use weighted average, instead of lowest, to calcluate Maximum Temperature (note I generally reduce it by hand to a fairer value after welding anyway)",
   "license"            : "CC-BY-NC-SA-3.0",
