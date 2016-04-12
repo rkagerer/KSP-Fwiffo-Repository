@@ -30,6 +30,7 @@
     "conflicts" : [
         { "name" : "KerbalAlarmClock" },
     ],
+    "provides" : [ "KerbalAlarmClock" ],
     "download": "https://github.com/jslater89/KerbalAlarmClock/releases/download/v3.6.0.0/KerbalAlarmClock-3.6.0-v1.1-provisional.zip",
     "x_generated_by": "Fwiffo",
     "x_master_meta": "https://github.com/KSP-CKAN/CKAN-meta/tree/master/KerbalAlarmClock"

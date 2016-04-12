@@ -40,6 +40,7 @@
             "name": "SCANsat"
         }
     ],
+    "provides" : [ "SCANsat" ],
     "install" : [
         {
             "find"       : "SCANsat",

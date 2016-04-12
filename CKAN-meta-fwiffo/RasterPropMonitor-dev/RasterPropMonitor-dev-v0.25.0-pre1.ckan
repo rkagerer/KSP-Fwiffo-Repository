@@ -27,6 +27,7 @@
         { "name"      : "RasterPropMonitor" },
         { "name"      : "RasterPropMonitor-Core" }
     ],
+    "provides"        : [ "RasterPropMonitor", "RasterPropMonitor-Core" ],
     "install"         :
     [
         {

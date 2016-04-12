@@ -16,6 +16,7 @@
     "conflicts": [
         { "name": "EditorExtensionsRedux" }
     ],
+    "provides" : [ "EditorExtensionsRedux" ],
     "install": [
         {
             "find": "EditorExtensionsRedux",

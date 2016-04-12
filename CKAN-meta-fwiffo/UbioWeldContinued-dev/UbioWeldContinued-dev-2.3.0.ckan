@@ -20,6 +20,7 @@
     "conflicts": [
         { "name": "UbioWeldContinued" },
     ],
+    "provides" : [ "UbioWeldContinued" ],
     "download": "https://github.com/UbioWeldingLtd/UbioWeldContinued/releases/download/2.3.0_Beta/UbioWeldContinued-2.3.0.zip",
     "x_generated_by": "Fwiffo"
 }

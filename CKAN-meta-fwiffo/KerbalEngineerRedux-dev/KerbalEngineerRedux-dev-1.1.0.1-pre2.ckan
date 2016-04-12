@@ -19,6 +19,7 @@
     "conflicts" : [
         { "name" : "KerbalEngineerRedux" },
     ],
+    "provides" : [ "KerbalEngineerRedux" ],
     "version": "1.1.0.1-pre2",
     "download": "https://cdn.rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/KerbalEngineer-dev-1.1.0.1-pre2.zip",
     "x_generated_by": "Fwiffo",

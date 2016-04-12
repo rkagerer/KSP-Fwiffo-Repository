@@ -16,7 +16,7 @@
     [
         { "name"      : "NavUtilities" }
     ],
-
+    "provides" : [ "NavUtilities" ],
     "install": [
         {
             "file": "GameData/KerbalScienceFoundation",

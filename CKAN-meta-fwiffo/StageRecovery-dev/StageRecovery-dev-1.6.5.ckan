@@ -29,6 +29,7 @@
             "name": "StageRecovery"
         }
     ],
+    "provides" : [ "StageRecovery" ],
     "install": [
         {
             "find": "StageRecovery",

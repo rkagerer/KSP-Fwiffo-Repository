@@ -19,6 +19,7 @@
     "suggests": [
         { "name": "KAS-dev" }
     ],
+    "provides"        : [ "KIS" ],
     "download"        : "https://github.com/KospY/KIS/releases/download/1.2.7-alpha.1/KAS_v1.2.7_build1.zip",
     "license"         : "restricted",
     "author"          : [ "KospY", "Winn75", "IgorZ" ],

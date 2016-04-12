@@ -10,6 +10,7 @@
         "homepage": "http://forum.kerbalspaceprogram.com/threads/107471",
         "repository": "https://github.com/ducakar/TextureReplacer"
     },
+    "provides" : [ "TextureReplacer" ],
     "release_status": "development",
     "version": "v2.4.13",
     "ksp_version": "1.1.0",
@@ -19,6 +20,7 @@
             "name": "TextureReplacer"
         }
     ],
+    "provides" : [ "TextureReplacer" ],
     "install": [
         {
             "find": "TextureReplacer",

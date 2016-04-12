@@ -21,6 +21,7 @@
     "conflicts" : [
         { "name" : "Chatterer" },
     ],
+    "provides" : [ "Chatterer" ],
     "version": "0.9.8-pre1",
     "ksp_version": "1.1.0",
     "download": "https://github.com/Athlonic/Chatterer/releases/download/v0.9.8-devBuild/Chatterer_v0.9.8devBuild_for_KSP_pre1.1_01172.zip",

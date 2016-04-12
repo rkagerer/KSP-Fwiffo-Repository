@@ -6,12 +6,12 @@
     "author"         : "blizzy78",
     "download"       : "https://github.com/rkagerer/KSP-Fwiffo-Repository/raw/master/Mods/PreciseNode-dev-1.2.1-patch1.zip",
     "license"        : "BSD-2-clause",
-    "release_status": "development",
+    "release_status" : "development",
     "version"        : "1.2.1-patch1",
     "ksp_version"    : "1.1.0",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/47863",
-        "github"   : {
+        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/47863",
+        "github"     : {
             "url"      : "https://github.com/blizzy78/ksp-precisenode",
             "releases" : true
         }
@@ -22,6 +22,11 @@
             "install_to" : "GameData"
         }
     ],
-    "x_generated_by": "Fwiffo",
-    "x_master_meta": "https://github.com/KSP-CKAN/CKAN-meta/tree/master/PreciseNode"
+    "conflicts"      :
+    [
+        { "name"     : "PreciseNode" }
+    ],
+    "provides"       : [ "PreciseNode" ],
+    "x_generated_by" : "Fwiffo",
+    "x_master_meta"  : "https://github.com/KSP-CKAN/CKAN-meta/tree/master/PreciseNode"
 }
