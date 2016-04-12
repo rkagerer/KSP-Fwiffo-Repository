@@ -1,0 +1,26 @@
+{
+  "spec_version"       : 1,
+  "identifier"         : "UbioWeldContinued-FwiffoSettings",
+  "name"               : "Fwiffo's settings for UbioZur Welding Ltd. Continued",
+  "author"             : "Fwiffo",
+  "abstract"           : "Fwiffo's settings for UbioWeldContinued.  Overrides the following from the default config:\n\n- 6 digits of precision, instead of 3\n\n- Use weighted average, instead of lowest, to calcluate Maximum Temperature (note I generally reduce it by hand to a fairer value after welding anyway)",
+  "license"            : "CC-BY-NC-SA-3.0",
+  "release_status"     : "development",
+  "version"            : "1.0",
+  "ksp_version_min"    : "1.0.2",
+  "ksp_version_max"    : "1.1.99",
+  "x_todo"             : "Change link below to cdn.rawgit.com",
+  "download"           : "https://rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/UbioWeldContinued-FwiffoSettings-1.0.zip",
+  "depends"            :
+  [
+    { "name"           : "UbioWeldContinued" }
+  ],
+  "install"            :
+  [
+    {
+      "find"           : "UbioWeldingLtd",
+      "install_to"     : "GameData"
+    }
+  ],
+  "x_generated_by"     : "Fwiffo"
+}
