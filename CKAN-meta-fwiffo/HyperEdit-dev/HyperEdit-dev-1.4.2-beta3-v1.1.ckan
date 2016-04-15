@@ -20,7 +20,7 @@
   ],
   "provides" : [ "HyperEdit" ],
   "ksp_version": "1.1.0",
-  "license": "restricted",
+  "license": "GPL-3.0",
   "author": [ "khyperia", "Payo", "sirkut", "Ezriilc" ],
   "version": "1.4.2-beta3-v1.1",
   "download": "https://cdn.rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/HyperEdit-dev-1.4.2-beta3-v1.1.zip",
