@@ -33,7 +33,7 @@
     "provides" : [ "VesselView" ],
     "install" : [
         {
-            "file"       : "VesselView",
+            "find"       : "VesselView",
             "install_to" : "GameData"
         }
     ],
