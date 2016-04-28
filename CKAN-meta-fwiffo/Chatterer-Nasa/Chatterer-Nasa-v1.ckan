@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Chatterer-Nasa",
+    "name": "Real NASA chatter pack",
+    "abstract": "Adds real NASA radio chatter to Chatterer.  IMPORTANT: After installing this pack, put a *manned* ship on the launch pad, go to Chatterer settings, click Chatter, then load the new set by typing the folder name NASA and clicking load.",
+    "author": "KingNeberkenezer",
+    "license": "Unknown",
+    "release_status": "release",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/83290-11-chatterer-v098-keep-talking-19-apr-2016/&do=findComment&comment=2538340",
+    },
+    "install": [
+        {
+            "file": "GameData/Chatterer/Sounds/chatter/nasa",
+            "install_to": "GameData/Chatterer/Sounds/chatter/nasa"
+        }
+    ],
+    "requires" : [
+        { "name" : "Chatterer" },
+    ],
+    "version": "1",
+    "ksp_version": "1.1.0",
+    "download": "https://cdn.rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/Chatterer-Nasa-1.zip",
+    "x_generated_by": "Fwiffo",
+}

@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier": "Chatterer-dev",
     "name": "Chatterer (dev)",
-    "abstract": "Development version (pre-release) of Chatterer; may not be stable.\n\nA plugin for Kerbal Space Program which adds some SSTV, beeps, and nonsensical radio chatter between your command pods and Mission Control.",
+    "abstract": "OUT OF DATE.  Development version (pre-release) of Chatterer; may not be stable.\n\nA plugin for Kerbal Space Program which adds some SSTV, beeps, and nonsensical radio chatter between your command pods and Mission Control.",
     "author": "Athlonic",
     "license": "GPL-3.0",
     "release_status": "development",
