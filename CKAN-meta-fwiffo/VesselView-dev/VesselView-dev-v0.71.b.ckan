@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "VesselView-dev",
+    "name": "Vessel Viewer (dev)",
+    "abstract": "Adentissa's modified build of Vessel Viewer to work with KSP 1.1.\n\nSee: http://forum.kerbalspaceprogram.com/index.php?/topic/72855-102-vessel-viewer/&do=findComment&comment=2476938\n\nAdds a handy-dandy window/RPM tab with a 3D model of your craft + color-coded readouts.",
+    "author": [ "PeteTimesSix", "Adentissa" ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/72855-102-vessel-viewer",
+        "repository": "https://github.com/PeteTimesSix/VesselViewer"
+    },
+    "version": "v0.71.b",
+    "ksp_version_min": "1.0.2",
+    "ksp_version_max": "1.1.9999",
+    "depends": [
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RasterPropMonitor"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "VesselView"
+        },
+    ],
+    "provides" : [ "VesselView" ],
+    "install" : [
+        {
+            "find"       : "VesselView",
+            "install_to" : "GameData"
+        }
+    ],
+    "download": "https://rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/VesselView-0.71.b.zip",
+    "x_generated_by": "Fwiffo"
+}
