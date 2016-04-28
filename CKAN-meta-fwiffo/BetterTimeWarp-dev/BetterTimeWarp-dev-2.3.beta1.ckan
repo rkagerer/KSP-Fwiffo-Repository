@@ -1,0 +1,29 @@
+﻿{
+    "spec_version": 1,
+    "identifier": "BetterTimeWarp-dev",
+    "name": "BetterTimeWarp (dev)",
+    "abstract": "BetterTimeWarp allows you to customize your time warp\n\nDevelopment (pre-release) version; may not be stable",
+    "author": "MrHappyFace",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/77565-BetterTimeWarp",
+        "repository": "https://github.com/HappyFaceIndustries/BetterTimeWarp"
+    },
+    "release_status": "development",
+    "version": "2.3.beta1",
+    "ksp_version": "1.1.0",
+    "download": "https://docs.google.com/uc?id=0B2HHoyq3mBJicWh4WDRaYXV2TlU&export=download",
+    "x_generated_by": "Fwiffo",
+    "conflicts": [
+        {
+            "name": "BetterTimeWarp"
+        }
+    ],
+    "provides" : [ "BetterTimeWarp" ],
+    "install": [
+        {
+            "find": "BetterTimeWarp",
+            "install_to": "GameData"
+        }
+    ],
+}
