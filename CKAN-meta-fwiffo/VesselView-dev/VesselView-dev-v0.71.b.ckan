@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.4",
     "identifier": "VesselView-dev",
-    "name": "Vessel Viewer (dev)",
+    "name": "Vessel Viewer - UI - RasterPropMonitor (dev)",
     "abstract": "Adentissa's modified build of Vessel Viewer to work with KSP 1.1.\n\nSee: http://forum.kerbalspaceprogram.com/index.php?/topic/72855-102-vessel-viewer/&do=findComment&comment=2476938\n\nAdds a handy-dandy window/RPM tab with a 3D model of your craft + color-coded readouts.",
     "author": [ "PeteTimesSix", "Adentissa" ],
     "license": "MIT",
