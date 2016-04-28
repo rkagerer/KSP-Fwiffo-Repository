@@ -12,7 +12,7 @@
     "install": [
         {
             "file": "GameData/Chatterer/Sounds/chatter/nasa",
-            "install_to": "GameData/Chatterer/Sounds/chatter/nasa"
+            "install_to": "GameData/Chatterer/Sounds/chatter"
         }
     ],
     "requires" : [
