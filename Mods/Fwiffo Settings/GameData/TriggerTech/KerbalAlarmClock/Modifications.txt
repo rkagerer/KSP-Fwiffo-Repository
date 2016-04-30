@@ -1,0 +1,9 @@
+- Default sound is Notify1 instead of Alarm1, and rings once instead of three times
+- Don't kill warp on Throttle cutoff
+- Keep 3 backup saves instead of 30
+- Enable SOI recalculation
+- Maneuver node quick margin 60s instead of 180s
+- SOI Quick margin 0s instead of 180s
+- Disable daily version check
+- By default delete alarms when done and play sound
+- Only show message if other vessel

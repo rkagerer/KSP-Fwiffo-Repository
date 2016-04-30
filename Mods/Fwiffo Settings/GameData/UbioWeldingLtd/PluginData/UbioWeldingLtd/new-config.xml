@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WeldingConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="KSP-Forum">
+  <MainWindowXPosition>328</MainWindowXPosition>
+  <MainWindowYPosition>244</MainWindowYPosition>
+  <precisionDigits>6</precisionDigits>
+  <dataBaseAutoReload>false</dataBaseAutoReload>
+  <includeAllNodes>false</includeAllNodes>
+  <allowCareerMode>true</allowCareerMode>
+  <dontProcessMasslessParts>true</dontProcessMasslessParts>
+  <runInTestMode>true</runInTestMode>
+  <useStockToolbar>true</useStockToolbar>
+  <useNamedCfgFile>true</useNamedCfgFile>
+  <StrengthCalcMethod>WeightedAverage</StrengthCalcMethod>
+  <MaxTempCalcMethod>WeightedAverage</MaxTempCalcMethod>
+  <clearEditor>true</clearEditor>
+  <advancedDebug>true</advancedDebug>
+</WeldingConfiguration>

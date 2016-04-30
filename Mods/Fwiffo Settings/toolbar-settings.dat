@@ -1,0 +1,243 @@
+toolbars
+{
+	MAINMENU
+	{
+		toolbar_271135436
+		{
+			x = 300
+			y = 300
+			width = 250
+			height = 0
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = 
+		}
+		toolbar_1275569836
+		{
+			x = 562
+			y = -3
+			width = 250
+			height = 81
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = QuickGoToAstr.QuickGoToAstr,QuickGoToAdmi.QuickGoToAdmi,QuickGoToConf.QuickGoToConf,QuickGoToLves.QuickGoToLves,QuickGoToMI.QuickGoToMI,QuickGoToRc.QuickGoToRc,QuickGoToRnD.QuickGoToRnD,QuickGoToRv.QuickGoToRv,QuickGoToRvED.QuickGoToRvED,QuickGoToRvSC.QuickGoToRvSC,QuickGoToSC.QuickGoToSC,QuickGoToSett.QuickGoToSett,QuickGoToSPH.QuickGoToSPH,QuickGoToTS.QuickGoToTS,QuickGoToVAB.QuickGoToVAB,StageRecovery.MainButton
+		}
+		toolbar_799041351
+		{
+			x = 300
+			y = 300
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = 
+		}
+		toolbar_704737836
+		{
+			x = 1554
+			y = -3
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = False
+			useKSPSkin = False
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,__TOOLBAR_INTERNAL.folder_1874443976,QuickGoToLves.QuickGoToLves,QuickGoToRc.QuickGoToRc,QuickGoToRv.QuickGoToRv,QuickGoToRvED.QuickGoToRvED,QuickGoToRvSC.QuickGoToRvSC,QuickGoToTS.QuickGoToTS,RCSBuildAid.mainButton
+			visibleButtons = QuickGoToAdmi.QuickGoToAdmi,QuickGoToAstr.QuickGoToAstr,QuickGoToLves.QuickGoToLves,QuickGoToMI.QuickGoToMI,QuickGoToRc.QuickGoToRc,QuickGoToRnD.QuickGoToRnD,QuickGoToRv.QuickGoToRv,QuickGoToRvED.QuickGoToRvED,QuickGoToRvSC.QuickGoToRvSC,QuickGoToSC.QuickGoToSC,QuickGoToSPH.QuickGoToSPH,QuickGoToTS.QuickGoToTS,QuickGoToSett.QuickGoToSett,QuickGoToConf.QuickGoToConf
+			folders
+			{
+				folder_1874443976
+				{
+					texturePath = QuickGoTo/Textures/BlizzyToolBar
+					toolTip = GoTo
+					buttons = QuickGoToAdmi.QuickGoToAdmi,QuickGoToAstr.QuickGoToAstr,QuickGoToConf.QuickGoToConf,QuickGoToMI.QuickGoToMI,QuickGoToRnD.QuickGoToRnD,QuickGoToSC.QuickGoToSC,QuickGoToSett.QuickGoToSett,QuickGoToSPH.QuickGoToSPH
+				}
+			}
+		}
+		toolbar_1749594691
+		{
+			x = 881
+			y = -3
+			width = 285
+			height = 38
+			autoHide = False
+			drawBorder = False
+			useKSPSkin = False
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,DockingAlignment.dockalign,QuickGoToTS.QuickGoToTS,QuickGoToLves.QuickGoToLves,QuickGoToRvED.QuickGoToRvED,__TOOLBAR_INTERNAL.folder_1944674067,__TOOLBAR_INTERNAL.folder_138190879
+			visibleButtons = advancedflybywire.mainButton,StageRecovery.MainButton,QuickGoToTS.QuickGoToTS,QuickGoToRv.QuickGoToRv,QuickGoToRvED.QuickGoToRvED,QuickGoToAdmi.QuickGoToAdmi,QuickGoToAstr.QuickGoToAstr,QuickGoToLves.QuickGoToLves,QuickGoToMI.QuickGoToMI,QuickGoToRc.QuickGoToRc,QuickGoToRnD.QuickGoToRnD,QuickGoToRvSC.QuickGoToRvSC,QuickGoToSC.QuickGoToSC,QuickGoToSPH.QuickGoToSPH,QuickGoToVAB.QuickGoToVAB,EnhancedNavball.btnEnhancedNavballToolbarIcon,QuickGoToConf.QuickGoToConf,QuickGoToSett.QuickGoToSett
+			folders
+			{
+				folder_1944674067
+				{
+					texturePath = 000_Toolbar/folder
+					toolTip = GoTo
+					buttons = QuickGoToAdmi.QuickGoToAdmi,QuickGoToAstr.QuickGoToAstr,QuickGoToConf.QuickGoToConf,QuickGoToMI.QuickGoToMI,QuickGoToRc.QuickGoToRc,QuickGoToRnD.QuickGoToRnD,QuickGoToRv.QuickGoToRv,QuickGoToRvSC.QuickGoToRvSC,QuickGoToSC.QuickGoToSC,QuickGoToSett.QuickGoToSett,QuickGoToSPH.QuickGoToSPH,QuickGoToVAB.QuickGoToVAB
+				}
+				folder_138190879
+				{
+					texturePath = 000_Toolbar/folder
+					toolTip = Settings for Other Mods
+					buttons = EnhancedNavball.btnEnhancedNavballToolbarIcon
+				}
+			}
+		}
+		toolbar_1755605286
+		{
+			x = 673
+			y = -3
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = QuickGoToAdmi.QuickGoToAdmi,QuickGoToAstr.QuickGoToAstr,QuickGoToMI.QuickGoToMI,QuickGoToRnD.QuickGoToRnD,QuickGoToTS.QuickGoToTS,QuickGoToVAB.QuickGoToVAB
+		}
+		toolbar_1166185323
+		{
+			x = 2327
+			y = 1522
+			width = 250
+			height = 81
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = QuickGoToAdmi.QuickGoToAdmi,QuickGoToAstr.QuickGoToAstr,QuickGoToLves.QuickGoToLves,QuickGoToMI.QuickGoToMI,QuickGoToRnD.QuickGoToRnD,QuickGoToSC.QuickGoToSC,QuickGoToTS.QuickGoToTS,QuickGoToVAB.QuickGoToVAB,EnhancedNavball.btnEnhancedNavballToolbarIcon
+		}
+	}
+	SPACECENTER
+	{
+		toolbar_1275569836
+		{
+			x = 562
+			y = -3
+			width = 250
+			height = 81
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = QuickGoToAstr.QuickGoToAstr,QuickGoToAdmi.QuickGoToAdmi,QuickGoToConf.QuickGoToConf,QuickGoToLves.QuickGoToLves,QuickGoToMI.QuickGoToMI,QuickGoToRc.QuickGoToRc,QuickGoToRnD.QuickGoToRnD,QuickGoToRv.QuickGoToRv,QuickGoToRvED.QuickGoToRvED,QuickGoToRvSC.QuickGoToRvSC,QuickGoToSC.QuickGoToSC,QuickGoToSett.QuickGoToSett,QuickGoToSPH.QuickGoToSPH,QuickGoToTS.QuickGoToTS,QuickGoToVAB.QuickGoToVAB,StageRecovery.MainButton
+		}
+	}
+	FLIGHT
+	{
+		toolbar_1749594691
+		{
+			x = 893
+			y = -3
+			width = 285
+			height = 38
+			autoHide = False
+			drawBorder = False
+			useKSPSkin = False
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,__TOOLBAR_INTERNAL.folder_1944674067,QuickGoToTS.QuickGoToTS,QuickGoToLves.QuickGoToLves,QuickGoToRvED.QuickGoToRvED,__TOOLBAR_INTERNAL.folder_138190879,SCANsat.Overlay
+			visibleButtons = advancedflybywire.mainButton,StageRecovery.MainButton,QuickGoToTS.QuickGoToTS,QuickGoToRv.QuickGoToRv,QuickGoToRvED.QuickGoToRvED,QuickGoToAdmi.QuickGoToAdmi,QuickGoToAstr.QuickGoToAstr,QuickGoToLves.QuickGoToLves,QuickGoToMI.QuickGoToMI,QuickGoToRc.QuickGoToRc,QuickGoToRnD.QuickGoToRnD,QuickGoToRvSC.QuickGoToRvSC,QuickGoToSC.QuickGoToSC,QuickGoToSPH.QuickGoToSPH,QuickGoToVAB.QuickGoToVAB,EnhancedNavball.btnEnhancedNavballToolbarIcon,QuickGoToConf.QuickGoToConf,QuickGoToSett.QuickGoToSett,SCANsat.BigMap,SCANsat.Overlay,VV.VVbutton,VVC.VVbuttonC,SCANsat.SmallMap
+			folders
+			{
+				folder_1944674067
+				{
+					texturePath = QuickGoTo/Textures/BlizzyToolBar
+					toolTip = GoTo
+					buttons = QuickGoToAdmi.QuickGoToAdmi,QuickGoToAstr.QuickGoToAstr,QuickGoToConf.QuickGoToConf,QuickGoToMI.QuickGoToMI,QuickGoToRc.QuickGoToRc,QuickGoToRnD.QuickGoToRnD,QuickGoToRv.QuickGoToRv,QuickGoToRvSC.QuickGoToRvSC,QuickGoToSC.QuickGoToSC,QuickGoToSett.QuickGoToSett,QuickGoToSPH.QuickGoToSPH,QuickGoToVAB.QuickGoToVAB
+				}
+				folder_138190879
+				{
+					texturePath = 000_Toolbar/folder
+					toolTip = Settings for Other Mods
+					buttons = EnhancedNavball.btnEnhancedNavballToolbarIcon,SCANsat.BigMap,SCANsat.SmallMap,VV.VVbutton,VVC.VVbuttonC
+				}
+			}
+		}
+	}
+	EDITOR
+	{
+		toolbar_704737836
+		{
+			x = 1554
+			y = -3
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = False
+			useKSPSkin = False
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,__TOOLBAR_INTERNAL.folder_1874443976,QuickGoToLves.QuickGoToLves,QuickGoToRc.QuickGoToRc,QuickGoToRv.QuickGoToRv,QuickGoToRvED.QuickGoToRvED,QuickGoToRvSC.QuickGoToRvSC,QuickGoToTS.QuickGoToTS,RCSBuildAid.mainButton
+			visibleButtons = QuickGoToAdmi.QuickGoToAdmi,QuickGoToAstr.QuickGoToAstr,QuickGoToLves.QuickGoToLves,QuickGoToMI.QuickGoToMI,QuickGoToRc.QuickGoToRc,QuickGoToRnD.QuickGoToRnD,QuickGoToRv.QuickGoToRv,QuickGoToRvED.QuickGoToRvED,QuickGoToRvSC.QuickGoToRvSC,QuickGoToSC.QuickGoToSC,QuickGoToSPH.QuickGoToSPH,QuickGoToTS.QuickGoToTS,QuickGoToSett.QuickGoToSett,QuickGoToConf.QuickGoToConf
+			folders
+			{
+				folder_1874443976
+				{
+					texturePath = QuickGoTo/Textures/BlizzyToolBar
+					toolTip = GoTo
+					buttons = QuickGoToAdmi.QuickGoToAdmi,QuickGoToAstr.QuickGoToAstr,QuickGoToConf.QuickGoToConf,QuickGoToMI.QuickGoToMI,QuickGoToRnD.QuickGoToRnD,QuickGoToSC.QuickGoToSC,QuickGoToSett.QuickGoToSett,QuickGoToSPH.QuickGoToSPH
+				}
+			}
+		}
+	}
+	SETTINGS
+	{
+		toolbar_799041351
+		{
+			x = 300
+			y = 300
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = 
+		}
+	}
+	FLIGHTMAP
+	{
+		toolbar_1166185323
+		{
+			x = 2347
+			y = 1565
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,__TOOLBAR_INTERNAL.folder_273118141,QuickGoToTS.QuickGoToTS,QuickGoToSC.QuickGoToSC,QuickGoToVAB.QuickGoToVAB,QuickGoToLves.QuickGoToLves,__TOOLBAR_INTERNAL.folder_1531880903
+			visibleButtons = QuickGoToAdmi.QuickGoToAdmi,QuickGoToAstr.QuickGoToAstr,QuickGoToLves.QuickGoToLves,QuickGoToMI.QuickGoToMI,QuickGoToRnD.QuickGoToRnD,QuickGoToSC.QuickGoToSC,QuickGoToTS.QuickGoToTS,QuickGoToVAB.QuickGoToVAB,EnhancedNavball.btnEnhancedNavballToolbarIcon,SCANsat.BigMap,VV.VVbutton,VVC.VVbuttonC,SCANsat.Overlay
+			folders
+			{
+				folder_273118141
+				{
+					texturePath = QuickGoTo/Textures/BlizzyToolBar
+					toolTip = Goto
+					buttons = QuickGoToAdmi.QuickGoToAdmi,QuickGoToAstr.QuickGoToAstr,QuickGoToMI.QuickGoToMI,QuickGoToRnD.QuickGoToRnD
+				}
+				folder_1531880903
+				{
+					texturePath = 000_Toolbar/folder
+					toolTip = Other Mod Settings
+					buttons = EnhancedNavball.btnEnhancedNavballToolbarIcon,SCANsat.BigMap,SCANsat.Overlay,VV.VVbutton,VVC.VVbuttonC
+				}
+			}
+		}
+	}
+	TRACKSTATION
+	{
+		toolbar_1755605286
+		{
+			x = 673
+			y = -3
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = QuickGoToAdmi.QuickGoToAdmi,QuickGoToAstr.QuickGoToAstr,QuickGoToMI.QuickGoToMI,QuickGoToRnD.QuickGoToRnD,QuickGoToTS.QuickGoToTS,QuickGoToVAB.QuickGoToVAB
+		}
+	}
+}
