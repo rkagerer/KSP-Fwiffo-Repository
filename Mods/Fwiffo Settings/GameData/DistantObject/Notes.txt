@@ -1,0 +1,2 @@
+Show names on mouseover
+Max skybox brightness 25% --> 60%
