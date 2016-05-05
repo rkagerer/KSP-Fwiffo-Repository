@@ -1,0 +1,3 @@
+Up / Down keys Q / E swapped
+Run key space --> left shift
+Sneak multiplier halved (for slower)

@@ -1,0 +1,14 @@
+Chatter frequency 60-90s --> 180-300s (less often)
+Quindar volume 50% --> 16% (make the annoying beep less loud)
+Add "nasa" chatterset? (possibly remove the music one)
+SSTV 15% --> 1% (make science transmit sound quieter)
+Show advanced options
+Insta-chatter: semicolon
+
+WITH MY BUILD:
+AAE background volume 1 30% --> 70%
+AAE background volume 2 30% --> 100%
+Fade backgroun dvolume with camera distance
+
+KSP 1.0.5 volume settings:
+54, 54, 50, 8, 17
