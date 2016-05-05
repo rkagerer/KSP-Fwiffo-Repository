@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier": "Chatterer-Expansion",
     "name": "Additional chatter sounds for Chatterer",
-    "abstract": "Adds an additional chatterset to Chatterer.\n\nIMPORTANT: After installing this pack, put a *manned* ship on the launch pad, go to Chatterer settings, ensure Sdvanced settings are enabled, go to the Chatter tab, then load the set by typing the folder name expansion and clicking Load.",
+    "abstract": "Adds an additional chatterset to Chatterer.\n\nIMPORTANT: After installing this pack, put a MANNED ship on the launch pad, open Chatterer settings, ensure Advanced Settings are enabled, then go to the Chatter tab, and load the set by typing the folder name 'expansion' (no quotes) and clicking Load.",
     "author": [ "Fwiffo", "KingNeberkenezer"],
     "license": "unknown",
     "release_status": "stable",
