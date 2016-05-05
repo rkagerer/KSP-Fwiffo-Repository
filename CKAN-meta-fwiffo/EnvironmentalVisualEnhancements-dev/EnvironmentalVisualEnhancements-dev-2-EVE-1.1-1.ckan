@@ -19,7 +19,7 @@
     ],
     "conflicts": [
         {"name": "EnvironmentalVisualEnhancements-LR"},
-        {"name": "EnvironmentalVisualEnhancements"},
+        {"name": "EnvironmentalVisualEnhancements"}
     ],
     "provides" : [ "EnvironmentalVisualEnhancements" ],
     "install": [
