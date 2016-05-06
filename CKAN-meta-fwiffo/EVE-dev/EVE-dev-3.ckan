@@ -4,7 +4,7 @@
     "name"               : "EVE (dev)",
     "abstract"           : "City Lights for Kerbin and Clouds for any planet you wish",
     "author"             : "rpray89",
-    "license"            : "MIT",
+    "license"            : "unknown",
     "resources": {
         "homepage"       : "http://forum.kerbalspaceprogram.com/threads/55905",
         "repository"     : "https://github.com/rbray89/EnvironmentalVisualEnhancements"
