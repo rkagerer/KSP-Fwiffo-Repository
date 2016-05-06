@@ -3,7 +3,7 @@
     "identifier": "EnvironmentalVisualEnhancements-Fwiffo",
     "name": "Environmental Visual Enhancements - Fwiffo's Config files",
     "abstract": "Fwiffo's configuration for EVE",
-    "author": [ "rbray89", "Fwiffo" ]
+    "author": [ "rbray89", "Fwiffo" ],
     "license": "MIT",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/55905",
