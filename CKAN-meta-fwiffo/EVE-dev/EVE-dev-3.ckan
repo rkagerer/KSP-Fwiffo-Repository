@@ -12,10 +12,6 @@
     "version"            : "3",
     "ksp_version_min"    : "1.0.0",
     "ksp_version_max"    : "1.1.99",
-    "conflicts"          : [
-        { "name"         : "EnvironmentalVisualEnhancements-LR" },
-        { "name"         : "EnvironmentalVisualEnhancements" }
-    ],
     "provides"           : [ "EnvironmentalVisualEnhancements" ],
     "install"            : [
         {
