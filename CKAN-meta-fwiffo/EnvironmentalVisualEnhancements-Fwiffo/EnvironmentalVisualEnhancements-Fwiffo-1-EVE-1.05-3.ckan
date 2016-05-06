@@ -9,7 +9,7 @@
         "homepage": "http://forum.kerbalspaceprogram.com/threads/55905",
         "repository": "https://github.com/rbray89/EnvironmentalVisualEnhancements"
     },
-    "version": "1:EVE-1.05-3",
+    "version": "2:EVE-1.1-1",
     "ksp_version_min" : "1.1.0",
     "ksp_version_max" : "1.1.99",
     "provides": [
@@ -31,7 +31,6 @@
             "install_to": "GameData"
         }
     ],
-    "download": "https://github.com/rbray89/EnvironmentalVisualEnhancements/releases/download/EVE-1.05-3/x86-Configs-Release.zip",
-    "download_size": 28128309,
+    "download": "https://github.com/rbray89/EnvironmentalVisualEnhancements/releases/download/EVE-1.1-1/AnyCPU-Configs-Release.zip",
     "x_generated_by": "Fwiffo"
 }
