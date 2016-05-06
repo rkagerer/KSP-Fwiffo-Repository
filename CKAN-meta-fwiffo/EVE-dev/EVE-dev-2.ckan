@@ -2,27 +2,26 @@
     "spec_version": "v1.4",
     "identifier": "EVE-dev",
     "name": "EVE (dev)",
-    "abstract": "DO NOT USE.  Dynamic IVA Sound Effects, add drama to your IVAs and hear your ship's fuselage Shake, Rattle and Rumble!\n\nDevelopment version (pre-release); may not be stable.",
-    "author": "CoriW",
-    "license": "CC-BY-NC-SA-4.0",
+    "abstract": "City Lights for Kerbin and Clouds for any planet you wish",
+    "author": "rpray89",
+    "license": "unknown",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/132289-1-0-4-ShipEffects-Sound-Mod-Dynamic-Sound-Effects-(Maintenance)-v1-0-1-08-23-2015",
-        "kerbalstuff": "https://kerbalstuff.com/mod/1102/ShipEffects-Sound-Mod:%20Dynamic%20Sound%20Effects%20(Maintenance)"
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/55905",
+        "repository": "https://github.com/rbray89/EnvironmentalVisualEnhancements"
     },
-    "version": "1.0.3",
+    "version": "2",
     "ksp_version_min": "1.0.0",
     "ksp_version_max": "1.1.99",
     "install": [
         {
-            "find": "ShipEffects",
-            "install_to": "GameData",
-            "filter": "Source"
+            "file": "GameData/EnvironmentalVisualEnhancements",
+            "install_to": "GameData"
         }
     ],
     "conflicts": [
-        { "name": "ShipEffects" },
+        { "name": "EnvironmentalVisualEnhancements" },
     ],
     "provides" : [ "ShipEffects" ],
-    "download": "https://dl.dropboxusercontent.com/u/74725194/KSP%20Mods/ShipEffects-Sound-Mod-1.0.3.zip",
+    "download": "https://github.com/rbray89/EnvironmentalVisualEnhancements/releases/download/EVE-1.1-1/AnyCPU-EVE-Release.zip",
     "x_generated_by": "Fwiffo"
 }
