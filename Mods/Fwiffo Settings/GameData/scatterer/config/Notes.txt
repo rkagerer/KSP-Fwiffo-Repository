@@ -1,0 +1,3 @@
+PlanetsList.cfg:
+- Don't draw atmosphere on top of cloud layer (clearer Kerbin from space)
+  drawAtmoOnTopOfClouds = True --> False
