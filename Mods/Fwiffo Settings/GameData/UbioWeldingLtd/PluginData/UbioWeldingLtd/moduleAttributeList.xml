@@ -79,6 +79,8 @@
     <ModuleAttribute AttributeName="ModuleDeployableSolarPanel_animationName" />
     <ModuleAttribute AttributeName="ModuleFuelTanks_type" />
     <ModuleAttribute AttributeName="FlagDecal_textureQuadName" />
+    <ModuleAttribute AttributeName="OUTPUT_RESOURCE_ResourceName" />
+    <ModuleAttribute AttributeName="INPUT_RESOURCE_ResourceName" />
   </BreakingModuleAttributes>
 </ModuleAttributeLists>
 <!-- The ModuleAttributeList.xml gives you the ability to edit how the Weldingtool will process the merging of certain modules and their attributes. -->

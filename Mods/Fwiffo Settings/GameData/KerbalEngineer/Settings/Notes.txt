@@ -1,0 +1,18 @@
+- Compact mode collapses to right (since KER window is on right side of screen in Editor)
+- Show atmospheric sliders
+- Rename HUD 1 to ORB HUD
+  - DeltaV (Current/Total)
+  - Apoapsis Height
+  - Apoapsis Time
+  - Periapsis Height
+  - Periapsis Time
+  - Separator
+- Rename HUD 2 to FLIGHT HUD (FLT HUD)
+  - Altitude (Terrain)
+  - Vert Speed
+  - Horz Speed
+  - Biome
+  - Mach (might remove)
+  - Atmo Efficiency
+- Position HUD's next to upper central panel (leave space on left for Abort popout)
+- Don't show control bar

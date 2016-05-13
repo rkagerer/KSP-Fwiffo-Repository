@@ -1,0 +1,3 @@
+Remove 15, 45, 60 and 90 degrees angle snap values
+Customized DLL with "RapidZoom" enhancement, fix for keystroke capturing, and improved gizmo snap setting sync
+(TODO: Test his new version)

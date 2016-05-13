@@ -20,7 +20,8 @@
     "conflicts":
     [
         { "name"            : "EnvironmentalVisualEnhancements" },
-        { "name"            : "EnvironmentalVisualEnhancements-LR" }
+        { "name"            : "EnvironmentalVisualEnhancements-LR" },
+        { "name"            : "StockVisualEnhancements" }
     ],
     "provides"              : [ "EnvironmentalVisualEnhancements" ],
     "install"               :
