@@ -27,7 +27,7 @@
     "provides" : [ "RCSBuildAid" ],
     "install": [
         { 
-            "find" : "RCSBuildAid",
+            "file" : "RCSBuildAid",
             "install_to" : "GameData",
             "filter" : "Sources"
         }
