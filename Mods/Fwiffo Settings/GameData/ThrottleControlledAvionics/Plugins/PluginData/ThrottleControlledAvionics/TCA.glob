@@ -1,0 +1,334 @@
+UseStockAppLauncher  = true
+IntegrateIntoCareer  = true
+RoleSymmetryInFlight = true
+InputDeadZone        = 0.03
+MaxManualGroups      = 10
+KeyRepeatTime        = 0.1
+WaypointHeight       = 5
+ExhaustSafeDist      = 1.3
+UnpackDistance       = 5000
+ActionListHeight     = 110
+MaxAAFilter          = 1
+
+//available colors: normal (meaning white), grey, red, dark_red, green, dark_green, yellow, dark_yellow, cyan, magenta
+EnabledButtonColor   = green
+ActiveButtonColor    = yellow
+InactiveButtonColor  = grey
+ConfirmButtonColor   = green
+AddButtonColor       = green
+CloseButtonColor     = red
+DangerButtonColor    = red
+
+RCS
+{
+	MaxIterations = 50
+	OptimizationPrecision = 0.01
+	OptimizationAngleCutoff = 10
+	OptimizationTorqueCutoff = 0.002 //rad/s2
+	TorqueRatioFactor = 0.1
+}
+
+ENG
+{
+	MaxIterations = 50
+	OptimizationPrecision = 0.01
+	OptimizationAngleCutoff = 45
+	OptimizationTorqueCutoff = 0.002 //rad/s2
+	ThrustOptimizationPrecision = 0.001
+	ThrustOptimizationCutoff = 1
+	TorqueRatioFactor = 0.1
+	
+	MaxAAFilter = 5
+	
+	MaxP = 1
+	MaxI = 1
+	EnginesPI
+	{
+		p = 0.4
+		i = 0.2
+	}
+	//PI values curve for engines' controller
+	EnginesCurve
+	{
+		key = 0 0.4 0 0
+		key = 10 0.4 0 0
+		key = 50 0.2 0 0
+		key = 100 0.2 0 0
+	}
+	
+	//Steering Gain curve
+	SteeringCurve 
+	{
+		key = 0 100 0 0
+		key = 8.719016 100 0 0
+		key = 15.54936 93.13159
+		key = 22.73507 63.92297
+		key = 38.26406 35.86771 -1.066393 -1.066393
+		key = 76.65812 20.75791 -0.1142597 -0.1142597
+		key = 100 20 0 0
+	}
+}
+
+VSC
+{
+	K0 = 2
+	K1 = 100
+	L1 = 1
+	MaxSpeed          = 10   //max. positive vertical speed m/s (configuration limit)
+	MinVSFf           = 1.2  //minimum vertical speed factor; so as not to lose control during a rapid descent
+	BalanceCorrection = 1.5  //multiplier for the vertical speed factor correction; 1.2 means +20% of thrust above the minimal value sufficient for zero balance
+	TWRf              = 2.1  //factor for the TWR adjustment of VerticalCutoff
+	UpAf              = 0.2  //factor for the upA adjustment of VerticalCutoff
+	ASf               = 2    //factor for the acceleration speed adjustment of VerticalCutoff
+	DSf               = 1    //factor for the deceleration speed adjustment of VerticalCutoff
+	FallingTime       = 1    //min. time falling to trigger Loosing Altitude alert
+	MaxDeltaV         = 1
+	AccelThreshold    = 0.1
+	MaxVSFtwr         = 0.9
+}
+
+ALT
+{
+	MaxSpeedErrorF = 100
+	MaxSpeedLow    = 10
+	MaxSpeedHigh   = 300
+	ErrF           = 1 //altitude error coefficient
+	TWRd           = 2  //twr denominator
+	
+	RelAltitudeFactor = 50  //meters
+	RelVelocityErrF   = 1
+
+	TimeAhead         = 5
+	FallingTime       = 1  //min. time falling to trigger Loosing Altitude alert
+	
+	RocketPID
+	{
+		P = 0.3	
+		I = 0.0
+		D = 0.3
+	}
+	JetsPID
+	{
+		P = 0.5
+		I = 0.0
+		D = 0.5
+	}
+}
+
+ATC
+{
+	PID
+	{
+		P = 10
+		I = 0.04
+		D = 0.5
+	}
+	
+	MinAAf         = 0.2
+	MaxAAf         = 1
+	AngularMf      = 0.001
+	InertiaFactor  = 10
+	MoIFactor      = 0.01
+	AngleThreshold = 10
+	MinEf          = 0.0001
+	MaxEf          = 2
+	SlowTorqueF    = 0.2
+	AALowPassF     = 1
+	MaxAttitudeError = 10  //deg
+	AttitudeErrorThreshold = 3
+}
+
+HSC
+{
+	TranslationUpperThreshold  = 5
+	TranslationLowerThreshold  = 0.5
+	RotationLowerThreshold     = 0.01
+	RotationUpperThreshold     = 30
+	TranslationMaxAngle        = 80
+	RotationMaxAngle           = 15
+	ManualTranslationIMinSpeed = 20
+		
+	ManualTranslationPID
+	{
+		P = 0.05
+		I = 0.000001
+		D = 0.0
+	}
+
+	AccelerationFactor = 1
+	MinHvThreshold     = 10
+	TWRf               = 3
+	VSf                = 3
+	HVCurve            = 1.5
+	SlowTorqueF        = 1
+	LowPassF           = 0.1
+}
+
+BRC
+{
+	MaxAAf = 2
+	MinAAf = 0.0001
+	YawFactor = 0.6
+	DrawForwardDirection = true
+	
+	DirectionPID
+	{
+		P = 4.0
+		I = 0.0
+		D = 6.0
+	}
+}
+
+CC
+{
+	PitchFactor = 0.2
+	MaxRevSpeed = -4
+	UpdateDelay = 10
+}
+
+PN
+{
+	MinDistance          = 50
+	MinTime              = 5
+	OnPathMinDistance    = 300
+	DistanceF            = 0.1
+	MinSpeed             = 10
+	MaxSpeed             = 500
+	DirectNavThreshold   = 1
+	GCNavStep            = 0.1
+	LookAheadTime        = 3
+	BearingCutoff        = 80
+	FormationSpeedCutoff = 10
+	FormationFactor      = 0.2
+	FormationBreakTime   = 10
+	FormationUpdateTimer = 60
+	TakeoffAltitude      = 100
+	BrakeOffset          = 1.5
+	PitchRollAAf         = 100
+	FollowerMaxAwaySpeed = 15
+	
+	DistancePID
+	{
+		P = 1.5
+		I = 0.0
+		D = 2.0
+	}
+}
+
+LND
+{
+	MaxUnevenness        = 0.3
+	UnevennessThreshold  = 0.6
+	MaxHorizontalTime    = 2
+	MinVerticalSpeed     = 1
+	WideCheckAltitude    = 100
+	MaxWideCheckAltitude = 1000
+	WideCheckLevel       = 7
+	NodeTargetRange      = 50
+	NodeAnchorRange      = 5
+	GearOnAtH            = 5
+	StopAtH              = 2
+	StopTimer            = 1
+	CutoffTimer          = 1
+}
+
+RAD
+{
+	UpViewAngle       = 60
+	DownViewAngle     = 40
+	MinAngleDelta     = 0.1
+	UpViewSlope       = 1
+	LookAheadTime     = 40
+	NumRays           = 30
+	MinAltitudeFactor = 2
+	MinClosingSpeed   = 4
+	MinDistanceAhead  = 60
+	PitchRollAAf      = 100
+	MaxLittleSteps    = 5
+	NHVf              = 0.5
+	ManeuverTimer     = 1
+}
+
+ANC
+{
+	DistanceF     = 0.5
+	MaxSpeed      = 10
+	AngularAccelF = 0.5
+	MaxAccelF     = 4
+	LookAheadTime = 2
+	SlowTorqueF   = 1
+	
+	DistancePID
+	{
+		P = 1.5
+		I = 0.0
+		D = 2.0
+	}
+}
+
+TLA
+{
+	MaxHSpeed = 10
+	MinVSpeed = 1
+	GearTimer = 1
+	LandedTimer = 2
+	MinDTWR     = 0.5
+	MinAngularVelocity = 0.001 //(rad/s)^2 ~= 1.8deg/s
+	GearOffAngularVelocity = 0.01 //(rad/s)^2 ~= 5.73deg/s
+	
+	GearOnMaxHSpeed = 5
+	GearOnAtH       = 5
+	GearOnTime      = 5
+}
+
+CPS
+{
+	MinDistance       = 5
+	SafeDistance      = 30
+	SafeTime          = 10
+	MaxAvoidanceSpeed = 15
+	LatAvoidMinVelSqr = 0.25
+	LookAheadTime     = 2
+	ManeuverTimer     = 0.1
+	LowPassF          = 0.5
+}
+
+STB
+{
+	Timer = 2;
+	MinAngularVelocity = 0.001
+}
+
+THR
+{
+	MinDeltaV       = 0.1 //m/s
+	DeltaVThreshold = 10  //sec
+}
+
+TRA
+{
+	MinDeltaV = 0.01 //m/s
+	TransPID
+	{
+		P = 0.5
+		I = 0.01
+		D = 0.5
+	}
+}
+
+WRP
+{
+	DewarpTime = 20 //sec
+	MaxWarp    = 10000
+}
+
+MVA
+{
+	OrbitSolverIterations = 20  //deg
+	OrbitSolverMinTTA     = 120 //sec
+	TimeBeforeApproach    = 1
+
+	StartAttitudeError    = 1   //deg
+	TranslationThreshold  = 5   //m/s
+}
+//:mode=c#:

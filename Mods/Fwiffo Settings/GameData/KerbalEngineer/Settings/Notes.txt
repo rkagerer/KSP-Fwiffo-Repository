@@ -16,3 +16,5 @@
   - Atmo Efficiency
 - Position HUD's next to upper central panel (leave space on left for Abort popout)
 - Don't show control bar
+- Add to Vessel info window (for extraction of data to Alexmoon's Launch Window Planner):
+  - Eccentricity, Inclination, Longitude of AN, Arg. of Periapsis, Time to Periapsis
