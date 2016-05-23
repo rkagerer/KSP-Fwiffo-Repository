@@ -16,7 +16,7 @@
     "author": [ "m4v", "Fwiffo" ],
     "version": "0.7.7-14-Fwiffo2",
     "release_status": "development",
-    "download": "https://rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/RCSBuildAid-dev-0.7.7-14-Fwiffo2.zip",
+    "download": "https://cdn.rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/RCSBuildAid-dev-0.7.7-14-Fwiffo2.zip",
     "supports" : [ 
         { "name" : "Toolbar" },
         { "name" : "KSP-AVC" }
