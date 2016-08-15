@@ -66,7 +66,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = 
+			visibleButtons = StageRecovery.MainButton
 		}
 	}
 	FLIGHT
@@ -81,7 +81,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = 
+			visibleButtons = ThrottleControlledAvionics.ThrottleControlledAvionicsButton,DockingAlignment.dockalign
 		}
 	}
 	FLIGHTMAP

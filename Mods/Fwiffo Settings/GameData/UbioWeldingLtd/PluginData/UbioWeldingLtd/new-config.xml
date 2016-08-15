@@ -5,14 +5,13 @@
   <precisionDigits>3</precisionDigits>
   <dataBaseAutoReload>false</dataBaseAutoReload>
   <includeAllNodes>false</includeAllNodes>
-  <fileSimplification>false</fileSimplification>
   <allowCareerMode>true</allowCareerMode>
   <dontProcessMasslessParts>true</dontProcessMasslessParts>
   <runInTestMode>true</runInTestMode>
   <useStockToolbar>true</useStockToolbar>
   <useNamedCfgFile>true</useNamedCfgFile>
   <StrengthCalcMethod>WeightedAverage</StrengthCalcMethod>
-  <MaxTempCalcMethod>Lowest</MaxTempCalcMethod>
+  <MaxTempCalcMethod>WeightedAverage</MaxTempCalcMethod>
   <clearEditor>true</clearEditor>
   <advancedDebug>true</advancedDebug>
 </WeldingConfiguration>
