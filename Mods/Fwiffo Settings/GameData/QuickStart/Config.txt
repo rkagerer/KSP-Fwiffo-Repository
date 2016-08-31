@@ -6,4 +6,4 @@ enableEditorAutoSaveShip = True
 enableEditorLoadAutoSave = True
 enablePauseOnFlight = True
 gameScene = 5
-editorFacility = 1
+editorFacility = 0
