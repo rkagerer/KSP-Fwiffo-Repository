@@ -2,7 +2,7 @@
     "spec_version": 1,
     "identifier": "EnvironmentalVisualEnhancements-Fwiffo",
     "name": "Environmental Visual Enhancements - Fwiffo's Config files",
-    "abstract": "Fwiffo's configuration for EVE",
+    "abstract": "Fwiffo's configuration for EVE (now same as stock)",
     "author": [ "rbray89", "Fwiffo" ],
     "license": "MIT",
     "resources": {
