@@ -1,117 +1,63 @@
 toolbars
 {
-	MAINMENU
-	{
-		toolbar_741637062
-		{
-			x = 300
-			y = 300
-			width = 250
-			height = 0
-			autoHide = False
-			drawBorder = True
-			useKSPSkin = False
-			buttonOrder = 
-			visibleButtons = 
-		}
-		toolbar_756529640
-		{
-			x = 1001
-			y = 1
-			width = 250
-			height = 38
-			autoHide = False
-			drawBorder = True
-			useKSPSkin = False
-			buttonOrder = 
-			visibleButtons = 
-		}
-		toolbar_1538638017
-		{
-			x = 300
-			y = 300
-			width = 250
-			height = 38
-			autoHide = False
-			drawBorder = True
-			useKSPSkin = False
-			buttonOrder = 
-			visibleButtons = 
-		}
-	}
 	SPACECENTER
 	{
-		toolbar_756529640
+		toolbar_2127596394
 		{
-			x = 1001
-			y = 1
+			x = 928
+			y = -2
 			width = 250
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
-			buttonOrder = 
-			visibleButtons = 
-		}
-	}
-	EDITOR
-	{
-		toolbar_1384944668
-		{
-			x = 1010
-			y = 2
-			width = 250
-			height = 38
-			autoHide = False
-			drawBorder = True
-			useKSPSkin = False
-			buttonOrder = 
-			visibleButtons = StageRecovery.MainButton
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,QuickGoToLves.QuickGoToLves,QuickGoToTS.QuickGoToTS,QuickGoToVAB.QuickGoToVAB,QuickGoToSPH.QuickGoToSPH,QuickGoToConf.QuickGoToConf
+			visibleButtons = QuickGoToLves.QuickGoToLves,QuickGoToTS.QuickGoToTS,QuickGoToVAB.QuickGoToVAB,QuickGoToSPH.QuickGoToSPH,QuickGoToRnD.QuickGoToRnD
 		}
 	}
 	FLIGHT
 	{
-		toolbar_1538638017
+		toolbar_1462765171
 		{
-			x = 759
+			x = 643
 			y = -3
 			width = 250
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
-			buttonOrder = 
-			visibleButtons = ThrottleControlledAvionics.ThrottleControlledAvionicsButton,DockingAlignment.dockalign
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,QuickGoToLves.QuickGoToLves,QuickGoToTS.QuickGoToTS,QuickGoToRnD.QuickGoToRnD,QuickGoToRv.QuickGoToRv,QuickGoToRvED.QuickGoToRvED,QuickGoToVAB.QuickGoToVAB,QuickGoToSPH.QuickGoToSPH
+			visibleButtons = QuickGoToTS.QuickGoToTS,QuickGoToLves.QuickGoToLves,QuickGoToRv.QuickGoToRv,QuickGoToVAB.QuickGoToVAB,QuickGoToRvED.QuickGoToRvED,QuickGoToRnD.QuickGoToRnD,QuickGoToSPH.QuickGoToSPH
 		}
 	}
-	FLIGHTMAP
+	EDITOR
 	{
-		toolbar_1161509070
+		toolbar_961124602
 		{
-			x = 300
-			y = 300
+			x = 1021
+			y = -1
 			width = 250
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
-			buttonOrder = 
-			visibleButtons = 
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,QuickGoToLves.QuickGoToLves,QuickGoToTS.QuickGoToTS,QuickGoToVAB.QuickGoToVAB,QuickGoToSPH.QuickGoToSPH,QuickGoToRnD.QuickGoToRnD
+			visibleButtons = QuickGoToLves.QuickGoToLves,QuickGoToRnD.QuickGoToRnD,QuickGoToSPH.QuickGoToSPH,QuickGoToTS.QuickGoToTS,QuickGoToVAB.QuickGoToVAB
 		}
 	}
 	TRACKSTATION
 	{
-		toolbar_490034525
+		toolbar_1242631070
 		{
-			x = 300
-			y = 300
+			x = 794
+			y = 0
 			width = 250
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
-			buttonOrder = 
-			visibleButtons = 
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,QuickGoToLves.QuickGoToLves,QuickGoToVAB.QuickGoToVAB,QuickGoToSPH.QuickGoToSPH,QuickGoToRnD.QuickGoToRnD
+			visibleButtons = QuickGoToLves.QuickGoToLves,QuickGoToRnD.QuickGoToRnD,QuickGoToSPH.QuickGoToSPH,QuickGoToVAB.QuickGoToVAB
 		}
 	}
 }
