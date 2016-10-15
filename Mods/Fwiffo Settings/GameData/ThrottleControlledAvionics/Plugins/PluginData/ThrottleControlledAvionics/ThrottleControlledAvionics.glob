@@ -1,23 +1,20 @@
-UseStockAppLauncher  = true
-IntegrateIntoCareer  = true
-RoleSymmetryInFlight = true
+UseStockAppLauncher   = true
+IntegrateIntoCareer   = true
+RoleSymmetryInFlight  = true
+AutosaveBeforeLanding = true
+
 InputDeadZone        = 0.03
 MaxManualGroups      = 10
 KeyRepeatTime        = 0.1
+ClickDuration        = 0.2
 WaypointHeight       = 5
 ExhaustSafeDist      = 1.3
 UnpackDistance       = 5000
 ActionListHeight     = 110
 MaxAAFilter          = 1
 
-//available colors: normal (meaning white), grey, red, dark_red, green, dark_green, yellow, dark_yellow, cyan, magenta
-EnabledButtonColor   = green
-ActiveButtonColor    = yellow
-InactiveButtonColor  = grey
-ConfirmButtonColor   = green
-AddButtonColor       = green
-CloseButtonColor     = red
-DangerButtonColor    = red
+PersistentRotationName = PersistentRotation
+PersistentRotationThreshold = 5e-8
 
 RCS
 {
@@ -33,7 +30,7 @@ ENG
 	MaxIterations = 50
 	OptimizationPrecision = 0.01
 	OptimizationAngleCutoff = 45
-	OptimizationTorqueCutoff = 0.002 //rad/s2
+	OptimizationTorqueCutoff = 0.01 //rad/s2
 	ThrustOptimizationPrecision = 0.001
 	ThrustOptimizationCutoff = 1
 	TorqueRatioFactor = 0.1
@@ -115,7 +112,7 @@ ALT
 	}
 }
 
-ATC
+ATCB
 {
 	PID
 	{
@@ -124,25 +121,49 @@ ATC
 		D = 0.5
 	}
 	
-	MinAAf         = 0.2
-	MaxAAf         = 1
-	AngularMf      = 0.001
-	InertiaFactor  = 10
-	MoIFactor      = 0.01
-	AngleThreshold = 10
-	MinEf          = 0.0001
-	MaxEf          = 2
-	SlowTorqueF    = 0.2
-	AALowPassF     = 1
-	MaxAttitudeError = 10  //deg
-	AttitudeErrorThreshold = 3
+	MaxAA                  = 2
+	MinAAf                 = 0.2
+	MaxAAf                 = 2
+
+	AngularMf              = 0.001
+	InertiaFactor          = 10
+	MoIFactor              = 0.01
+	MinEf                  = 0.0001
+	MaxEf                  = 2
+	SlowTorqueF            = 0.2
+	AALowPassF             = 1
+	MinSteeringThreshold   = 0.1
+	
+	AngleThreshold         = 60 //deg
+	MaxAttitudeError       = 10 //deg
+	AttitudeErrorThreshold = 3  //deg
+	MaxTimeToAlignment     = 15 //s
+	DragResistanceF        = 10
+	
+	OD_low                 = 5   //Hz
+	OD_high                = 20  //Hz
+	OD_bins                = 50
+	OD_window              = 100 //samples
+	OD_smoothing           = 0.1 //s
+	OD_Threshold           = 0.2
+}
+
+ATC
+{
+	RollFilter = 0.5
+}
+
+TDC
+{
+	TWRf = 3
+	VSf  = 3
 }
 
 HSC
 {
 	TranslationUpperThreshold  = 5
 	TranslationLowerThreshold  = 0.5
-	RotationLowerThreshold     = 0.01
+	RotationLowerThreshold     = 0.05
 	RotationUpperThreshold     = 30
 	TranslationMaxAngle        = 80
 	RotationMaxAngle           = 15
@@ -157,25 +178,33 @@ HSC
 
 	AccelerationFactor = 1
 	MinHvThreshold     = 10
-	TWRf               = 3
-	VSf                = 3
 	HVCurve            = 1.5
+	MinHVCurve         = 0.5
 	SlowTorqueF        = 1
 	LowPassF           = 0.1
+	CorrectionWeight   = 100
+}
+
+VTOL
+{
+	MaxAngle = 45
 }
 
 BRC
 {
-	MaxAAf = 2
-	MinAAf = 0.0001
-	YawFactor = 0.6
+	MaxAAf = 6
+	MinAAf = 0.2
+	ADf    = 0.005
+	YawFactor = 60
 	DrawForwardDirection = true
 	
 	DirectionPID
 	{
-		P = 4.0
+		P = 2
 		I = 0.0
-		D = 6.0
+		D = 1.8
+		Min = -175 //deg
+		Max =  175
 	}
 }
 
@@ -188,48 +217,55 @@ CC
 
 PN
 {
-	MinDistance          = 50
+	TakeoffAltitude      = 100
+	
+	MinDistance          = 3
+	OnPathMinDistance    = 6
 	MinTime              = 5
-	OnPathMinDistance    = 300
-	DistanceF            = 0.1
-	MinSpeed             = 10
-	MaxSpeed             = 500
+	
+	DistanceFactor       = 0.3
+	AngularAccelFactor   = 3
 	DirectNavThreshold   = 1
 	GCNavStep            = 0.1
+
+	MinSpeed             = 10
+	MaxSpeed             = 500
+
 	LookAheadTime        = 3
 	BearingCutoff        = 80
 	FormationSpeedCutoff = 10
 	FormationFactor      = 0.2
 	FormationBreakTime   = 10
 	FormationUpdateTimer = 60
-	TakeoffAltitude      = 100
-	BrakeOffset          = 1.5
-	PitchRollAAf         = 100
+
 	FollowerMaxAwaySpeed = 15
 	
-	DistancePID
+	BrakeOffset          = 0.9
+	PitchRollAAf         = 100
+	
+	LateralPID
 	{
-		P = 1.5
-		I = 0.0
-		D = 2.0
+		P = 2
+		I = 0.2
+		D = 0.5
 	}
 }
 
 LND
 {
-	MaxUnevenness        = 0.3
+	MaxUnevenness        = 0.35
 	UnevennessThreshold  = 0.6
 	MaxHorizontalTime    = 2
-	MinVerticalSpeed     = 1
+	MinVerticalSpeed     = 5
 	WideCheckAltitude    = 100
 	MaxWideCheckAltitude = 1000
 	WideCheckLevel       = 7
-	NodeTargetRange      = 50
-	NodeAnchorRange      = 5
+	NodeTargetRange      = 1
 	GearOnAtH            = 5
 	StopAtH              = 2
 	StopTimer            = 1
 	CutoffTimer          = 1
+	RaysPerFrame         = 5
 }
 
 RAD
@@ -257,6 +293,7 @@ ANC
 	MaxAccelF     = 4
 	LookAheadTime = 2
 	SlowTorqueF   = 1
+	DistanceCurve = 3
 	
 	DistancePID
 	{
@@ -303,6 +340,7 @@ THR
 {
 	MinDeltaV       = 0.1 //m/s
 	DeltaVThreshold = 10  //sec
+	AttitudeDeadzone = 1  //deg
 }
 
 TRA
@@ -324,11 +362,83 @@ WRP
 
 MVA
 {
-	OrbitSolverIterations = 20  //deg
-	OrbitSolverMinTTA     = 120 //sec
-	TimeBeforeApproach    = 1
-
-	StartAttitudeError    = 1   //deg
 	TranslationThreshold  = 5   //m/s
+}
+
+TRJ
+{
+	dVtol              = 0.01  //m/s
+	dV4dRf             = 1e-4
+	MinPeA             = 10000 //m
+	MaxIterations      = 1000
+	PerFrameIterations = 5
+}
+
+LTRJ
+{
+	Dtol               = 100  //m
+	FlyOverAlt         = 2000 //m
+	ApproachAlt        = 250  //m
+	
+	BrakeThrustThreshod = 100 //m/s
+	BrakeEndSpeed      = 10   //m/s
+	MinBrakeOffset     = 10   //s
+	FinalBrakeOffset   = 3    //s
+	
+	CorrectionOffset   = 20   //s
+	CorrectionTimer    = 30   //s
+	CorrectionMinDv    = 1    //m/s
+	CorrectionThrustF  = 4
+	CorrectionTimeF    = 2
+	
+	ObstacleBrakeF     = 1.1
+	HoverTimeThreshold = 60    //s
+	DropBallastThreshold = 0.4 //dP/P_asl
+	MaxDPressure       = 3     //kPa
+	MinDPressure       = 0.8   //kPa
+	MachThreshold      = 0.9
+}
+
+DEO
+{
+	StartEcc           = 0.5
+	MaxEcc             = 0.8
+	EccSteps           = 10
+	AngularDragF       = 0.14
+}
+
+BJ
+{
+	StartOffset      = 15  //s
+	StartInclination = 30  //deg
+	StartAltitude    = 50  //m
+	InclinationF     = 2
+}
+
+ORB
+{
+	Dtol           = 100   //m
+	GTurnCurve     = 0.9
+	GTurnOffset    = 1000
+	Dist2VelF      = 0.01	
+	RadiusOffset   = 10000 //m
+	LaunchTangentK = 2.0
+	DragK          = 2.0
+}
+
+REN
+{
+	Dtol                = 100   //m
+	StartOffset         = 60    //s
+	DeltaApThreshold    = 1000  //m
+	MaxTTR              = 3     //orbit.periods
+	MaxDeltaV           = 100   //m/s
+	CorrectionStart     = 10000 //m
+	CorrectionOffset    = 20    //s
+	CorrectionTimer     = 10    //s
+	ApproachThreshold   = 500   //m
+	MaxApproachV        = 20    //parts
+	ApproachVelF        = 0.01  //parts
+	MaxInclinationDelta = 30    //deg
 }
 //:mode=c#:

@@ -11,7 +11,7 @@
   <useStockToolbar>true</useStockToolbar>
   <useNamedCfgFile>true</useNamedCfgFile>
   <StrengthCalcMethod>WeightedAverage</StrengthCalcMethod>
-  <MaxTempCalcMethod>WeightedAverage</MaxTempCalcMethod>
+  <MaxTempCalcMethod>Lowest</MaxTempCalcMethod>
   <clearEditor>true</clearEditor>
   <advancedDebug>true</advancedDebug>
 </WeldingConfiguration>
