@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ConfigData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <FileVersion>3.2.13.35596</FileVersion>
+  <FileVersion>3.2.13.35486</FileVersion>
   <KeyMap>
     <ResetCamera>Space</ResetCamera>
     <ZoomSelected>KeypadPeriod</ZoomSelected>
@@ -8,6 +8,9 @@
     <PartClipping>Z</PartClipping>
     <VerticalSnap>V</VerticalSnap>
     <HorizontalSnap>M</HorizontalSnap>
+    <ToggleReRoot></ToggleReRoot>
+    <ToggleNoOffsetLimit></ToggleNoOffsetLimit>
+    <StartMasterSnap>LeftControl</StartMasterSnap>
     <CompoundPartAlign>U</CompoundPartAlign>
     <Up>UpArrow</Up>
     <Down>DownArrow</Down>
@@ -26,6 +29,8 @@
   </AngleSnapValues>
   <MaxSymmetry>20</MaxSymmetry>
   <RapidZoom>true</RapidZoom>
+  <ReRootEnabled>true</ReRootEnabled>
+  <NoOffsetLimitEnabled>false</NoOffsetLimitEnabled>
   <ShowDebugInfo>true</ShowDebugInfo>
   <OnScreenMessageTime>1.5</OnScreenMessageTime>
 </ConfigData>

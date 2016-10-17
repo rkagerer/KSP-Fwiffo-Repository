@@ -1,1 +1,0 @@
-The Parts folder override here can be removed once IndicatorLights fixes the TextureReplacer incompatibility (hopefully by resizing their PNG's to 1x1)
