@@ -1,0 +1,5 @@
+- 5 digits of precision, instead of 3
+- Use weighted average, instead of lowest, to calcluate Maximum Temperature (note I generally reduce it by hand to a fairer value after welding anyway)
+- ignore FAR modules (FARPartModule, FARAeroPartModule, GeometryPartModule)
+- ignore modules SCANRPMStorage (RasterPropMon) and ModuleTCA (Throttle Controlled Avionics) - official mod should adopt this change soon
+- add ModuleEnviroSensor_sensorType to BreakingModuleAttributes official mod should adopt this change soon

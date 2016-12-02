@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <bool name="IsVerbose">0</bool>                     <!-- enable for more logging -->
+    <string name="ToggleLEDColor">#00FF00</string>
+    <string name="HighResourceColor">#00FF00</string>
+    <string name="MediumResourceColor">#B2A403</string>
+    <string name="LowResourceColor">#800000</string>
+    <string name="ReactionWheelNormalColor">#00FF00</string>
+    <string name="ReactionWheelPilotOnlyColor">#0000FF</string>
+    <string name="ReactionWheelSASOnlyColor">#B2A403</string>
+    <string name="DockingCrossfeedOnColor">#00B200</string>
+    <string name="DockingCrossfeedOffColor">#990000</string> <!-- considered changing from #990000 red to orange #FF2E00 -->
+    <bool name="CrewIndicatorDefaultStatus">1</bool>   <!-- changed from 0 to 1 to default them on -->
+    <string name="CrewPilotColor">#B68DB7</string>     <!-- changed from #80520D brown to purple -->
+    <string name="CrewEngineerColor">#CEB358</string>  <!-- changed from #CEB358 green to gold -->
+    <string name="CrewScientistColor">#0D0DF2</string> <!-- changed from #0D0DF2 blue to softer blue -->
+    <string name="CrewTouristColor">#9DAF6E</string>   <!-- changed from #808080 grey to lime -->
+    <string name="ResourceLiquidFuelColor">#00FF00</string>
+    <string name="ResourceOxidizerColor">#1A66FF</string>
+    <string name="ResourceMonopropellantColor">#CFAE00</string>
+    <string name="HighScienceColor">#00A0DB</string>   <!-- changed from #00D926 to light blue -->
+    <string name="MediumScienceColor">#014A85</string> <!-- changed from #998D02 to dark blue -->
+    <string name="LowScienceColor">#32237A</string>    <!-- changed from #730000 to dark purplish blue -->
+    <string name="WarningColor">#FF0000</string>
+</config>

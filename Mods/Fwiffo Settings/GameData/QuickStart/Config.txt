@@ -1,9 +1,0 @@
-Enabled = True
-Debug = True
-WaitLoading = 0.5
-editorTimeToSave = 30
-enableEditorAutoSaveShip = True
-enableEditorLoadAutoSave = True
-enablePauseOnFlight = True
-gameScene = 5
-editorFacility = 0

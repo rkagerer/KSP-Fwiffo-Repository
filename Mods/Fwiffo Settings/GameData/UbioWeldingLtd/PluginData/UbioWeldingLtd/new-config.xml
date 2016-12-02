@@ -5,6 +5,7 @@
   <precisionDigits>3</precisionDigits>
   <dataBaseAutoReload>false</dataBaseAutoReload>
   <includeAllNodes>false</includeAllNodes>
+  <fileSimplification>false</fileSimplification>
   <allowCareerMode>true</allowCareerMode>
   <dontProcessMasslessParts>true</dontProcessMasslessParts>
   <runInTestMode>true</runInTestMode>

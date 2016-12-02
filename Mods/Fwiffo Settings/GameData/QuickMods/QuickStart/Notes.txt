@@ -1,0 +1,1 @@
+Changed Editor autosave from 30 sec to 10 mins (600 sec) to try and reduce stutter

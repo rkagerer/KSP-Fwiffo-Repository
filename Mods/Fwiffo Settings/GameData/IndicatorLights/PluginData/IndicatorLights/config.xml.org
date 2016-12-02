@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <string name="ToggleLEDColor">#00FF00</string>
+    <string name="HighResourceColor">#00FF00</string>
+    <string name="MediumResourceColor">#B2A403</string>
+    <string name="LowResourceColor">#800000</string>
+    <string name="ReactionWheelNormalColor">#00FF00</string>
+    <string name="ReactionWheelPilotOnlyColor">#0000FF</string>
+    <string name="ReactionWheelSASOnlyColor">#B2A403</string>
+    <string name="DockingCrossfeedOnColor">#00B200</string>
+    <string name="DockingCrossfeedOffColor">#990000</string>
+    <bool name="CrewIndicatorDefaultStatus">0</bool>
+    <string name="CrewPilotColor">#80520D</string>
+    <string name="CrewEngineerColor">#0D960D</string>
+    <string name="CrewScientistColor">#0D0DF2</string>
+    <string name="CrewTouristColor">#808080</string>
+    <string name="ResourceLiquidFuelColor">#00FF00</string>
+    <string name="ResourceOxidizerColor">#1A66FF</string>
+    <string name="ResourceMonopropellantColor">#CFAE00</string>
+    <string name="HighScienceColor">#00D926</string>
+    <string name="MediumScienceColor">#998D02</string>
+    <string name="LowScienceColor">#730000</string>
+    <string name="WarningColor">#FF0000</string>
+</config>

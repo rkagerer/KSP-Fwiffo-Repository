@@ -1,0 +1,5 @@
+For slowmo, lock physics delta
+
+Set window pos:
+	FlightWindowX = 719
+	FlightWindowY = 1407

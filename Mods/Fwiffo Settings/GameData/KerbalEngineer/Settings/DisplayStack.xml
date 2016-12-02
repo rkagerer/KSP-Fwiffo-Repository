@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSettingItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SettingItem>
+    <Name>hidden</Name>
+    <Value xsi:type="boolean">false</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>showControlBar</Name>
+    <Value xsi:type="boolean">false</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>windowPositionX</Name>
+    <Value xsi:type="float">137</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>windowPositionY</Name>
+    <Value xsi:type="float">933</Value>
+  </SettingItem>
+</ArrayOfSettingItem>

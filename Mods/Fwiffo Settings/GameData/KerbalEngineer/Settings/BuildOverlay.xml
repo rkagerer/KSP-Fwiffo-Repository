@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSettingItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SettingItem>
+    <Name>visible</Name>
+    <Value xsi:type="boolean">true</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>namesOnly</Name>
+    <Value xsi:type="boolean">false</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>clickToOpen</Name>
+    <Value xsi:type="boolean">true</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>vesselOpen</Name>
+    <Value xsi:type="boolean">true</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>resourcesOpen</Name>
+    <Value xsi:type="boolean">true</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>vesselWindowX</Name>
+    <Value xsi:type="float">330</Value>
+  </SettingItem>
+</ArrayOfSettingItem>
